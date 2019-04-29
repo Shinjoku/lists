@@ -1,0 +1,60 @@
+Arquitetura de Computadores			
+Engenharia de computação
+
+
+
+
+José Carlos Clausen Neto
+Laert Espagnoli Neto
+Raissa Furlan Davinha
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introdução:
+
+O projeto foi feito em Assembly MIPS, com foco em criar um sistema que armazenasse e manipulasse de diversas formas os dados inseridos pelo usuário sobre postos de abastecimento. 
+Como a linguagem é específica para processadores da arquitetura MIPS, para desenvolver o programa foram utilizados alguns simuladores da linguagem, sendo esses:
+•	Mars (MIPS Assembler and Runtime Simulator);
+•	QtSpim (Simulador do processador MIPS R3000);
+•	PCSpim (Outro simulador MIPS);
+
+Ressaltando que essencialmente o QtSpim e o PCSpim funcionam de maneira muito semelhante e ambos contêm uma interface muito parecida.
+
+
+
+Especificação:
+A manipulação citada acima consiste em:
+•	Cadastrar posto:
+Se fazem necessárias certas informações de cadastro, como data do abastecimento, nome do posto, quilometragem total do veículo no momento do abastecimento, preço do abastecimento e quantidade de combustível que foi colocada.
+
+•	Excluir cadastro:
+Consiste em excluir um certo cadastro do banco de dados. Necessita da data do abastecimento a ser excluído.
+•	Exibir abastecimentos:
+Exibe, em ordem de data crescente, os postos cadastrados até o momento.
+•	Exibir consumo médio:
+Consiste em mostrar ao usuário o consumo médio registrado até o momento. Calculado em função da quilometragem total e litros consumidos até o momento.
+•	Exibir preço médio:
+Consiste em exibir o preço médio, com base no preço total e quantidade total de litros abastecidos registrados até o momento.
+•	Exibir ranking de postos:
+Exibe, em função dos preços, os postos cadastrados no momento (ordem crescente).
+
+

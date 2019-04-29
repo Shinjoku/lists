@@ -1,0 +1,60 @@
+FIRST --------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Input:
+
+    marrocos
+    +[>,]<-[+.<-]
+
+Description:
+
+    machine[0...n] = 0
+
+    machine[0] = 1
+
+    machine[1...8] = "marrocos", char by char
+    machine[9] = 0 (The previous (before loop) cell isn't 0 to end the loop, but the end of input has been reached (that's the 0 that's found to end the loop)
+
+    machine[8...0]--; machine[8...0]++; print it if not 0 (loop end condition). The only one that'll turn into 0 before the sum (++) is the cell before 1st loop.
+
+    This way it prints everything backwards, and use the first cell to end the loop of getting back.
+
+SECOND -------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Input:
+
+    nada
+    ++++++++++[>+++++++>++++++++++>+++>+<<<<-]>++.>+.+++++++..+++.>++.<<+++++++++++++++.>.+++.------.--------.>+.>.
+
+Description:
+
+    machine[0...n] = 0
+
+    machine[0] = 10
+
+    while(machine[0] != 0)
+        machine[1] += 7
+        machine[2] += 10
+        machine[3] += 3
+        machine[4] += 1
+        machine[0] -= 1
+
+    This while should generate that: (Checked, that's ok in 1456.cpp)
+
+        machine[0] = 0
+        machine[1] = 70
+        machine[2] = 100
+        machine[3] = 30
+        machine[4] = 10
+
+    (Here the bugs start:)
+
+    machine[1] += 2 (becomes 72, should print 'H' after that assignment, it doesn't)
+    machine[2] += 1 (becomes 101, should print 'e', it doesn't)
+    machine[2] += 7 (becomes 108, should print 'l' 2 times then, it doesn't)
+    machine[2] += 3 (becomes 111, should print 'o', it doesn't)
+    machine[3] += 2 (becomes 32, should print space, it doesn't)
+    machine[1] += 15 (becomes 87, should print 'W', does not)
+    machine[2] += 3 (becomes 114, should print 'o' before that and 'r' after, =)
+    machine[2] -= 6 (becomes 108, should print 'l', =)
+    machine[2] -= 8 (becomes 100, should print 'd', =)
+    machine[3] += 1 (should print '!')

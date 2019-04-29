@@ -1,0 +1,53 @@
+Lista de comandos:
+    1. getPointerTo
+    2. free
+    3. exit
+    4. spec
+    5. get
+    6. show
+    7. info
+    8. decrypt
+    9. to_string
+   10. power
+   11. mem_of
+   
+Lista de variáveis globais:
+    1. ALL
+    2. MASHA_SYSTEM
+    3. YUSEF_SYSTEM
+    4. SYSMOSET
+
+Explicações:
+
+    (Funções:)
+        1. getPointerTo(pointer): Retorna um ponteiro correspondente à memória dedicada ao ponteiro por parâmetro.
+        2. free(pointer): Libera a memória dedicada ao ponteiro passado por parâmetro.
+        3. exit(): Encerra a execução do programa. Existem alternativas de encerramento passáveis por parâmetro.
+            - Um exemplo de alternativa é EXIT_FAILURE, que encerra o programa indicando falha.
+        4. spec(type, pointer): Configura um argumento. Normalmente é usado com alguma função que aceite mais de
+            um tipo de argumento em determinado parâmetro. Type é informado como string.
+        5. get(spec): Adquire informação do usuário, a armazena na variável configurada por spec.
+        6. show(): Mostra no terminal a informação posta (em forma de string) no parâmetro.
+        7. info(): Acessa um arquivo pelo seu nome, sem extensões (ex.: .txt, .jpg, .mp3, .wmv) mencionadas.
+        8. decrypt(string): Descriptografa a string. Sua configuração padrão (que só recebe a string) descriptografa
+            a string por todos os métodos, e seleciona a mais passível de coesão. É possível passar o método como string,
+            logo após a string a ser descriptografada.
+                - Exemplos de métodos de criptografia (podem ser revertidos) são caesar_cipher e as de sistemas númericos.
+        9. to_string(): Transforma em string o parâmetro, desde que este seja um número real.
+        10. power(spec, int): Aumenta o domínio da variável configurada por spec, em uma quantidade especificada
+            pelo inteiro (representa bytes). É opcional que o segundo parâmetro use ALL.
+        11. mem_of(id): Retorna a memória de capacidade reservada ao id do parâmetro.
+        
+    (Variáveis globais:)
+        ALL: Aponta pro domínio de toda a memória remanescente do sistema.
+        MASHA_SYSTEM: Objeto global que possui detalhes sobre o sistema de Masha:
+            - Id
+            - Data de criação
+        YUSEF_SYSTEM: Objeto global que possui detalhes sobre o sistema de Yusef:
+            - Id
+            - Data de criação
+        SYSMOSET: Objeto global representativo da atual memória como um todo. Possui detalhes:
+            - Planeta atual
+            - Sysmos integrados
+            - Nome da pessoa integrada
+            - Capacidade de memória (em bytes)

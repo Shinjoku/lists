@@ -1,0 +1,16 @@
+eBay:
+	* Every single price is inside a span with class="bold", and everything given by span.bold is a price. Inside of each span.bold is text, and the currency is between b tags, to make it bold.
+	* The id of the search input is "gh-ac" and its name is "_nkw"
+	* The id of the search button is "gh-btn" and its value is "Pesquisar"
+
+OLX:
+	* When you first enter the site, you'll need to click one of the links inside of list items (li > a) to define a scope (by default, it'll be the whole country, Brasil). 
+	* This list is only obtainable (according to my POV) accessing the element given by the CSS Selector div.col-1 > ul.list, and Brasil is the last item of that unordered list (ul).
+	* After clicking Brasil, the page goes to the selling site, which search input has "searchtext" as id and "q" as value (cool, that's the same value Google has to its search input)
+	* The search button has "searchbutton" as id and "Buscar" as value
+	* All and only prices are inside paragraph tags (p) with class="OLXad-list-price", which can be gotten by "p.OLXad-list-price" CSS Selector, and are pure text, in "currency value" format
+
+Amazon:
+	* Search input: id="twotabsearchtextbox", name="field-keywords"
+	* Search button: value="Go" (Can be found by CSS Selector "input[type="submit"]")
+	* Prices can be gotten by the css selector "span.a-size-base.a-color-base", which list of elements represent only prices from 3rd to n-th element.

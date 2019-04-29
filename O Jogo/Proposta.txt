@@ -1,0 +1,114 @@
+							Devaneios pra história do game de chat:
+							
+	(Introdução) ~Desbloqueia aparelho que foi fabricado há pouco tempo~
+
+	~
+		Exec Inicio.txt
+	~
+	
+	Yusef: 
+	Estamos em 2800 d.C., a raça humana vive em outro sistema solar, 
+adaptados à temperatura constante de 50 °C. Há muito tempo ocorrera uma tragédia, 
+em que um planeta invadiu o antigo sistema solar e colidiu com a Lua. 
+	O desequilíbrio natural fez com que nós tivéssemos de transportar pessoas para um lugar seguro, 
+e cá estamos hoje. Meu nome é Yusef, sou uma inteligência artificial integrada a
+Ícaro, um ser humano da quinta geração pós-armagedom.
+
+	Yusef: 
+	Fui criado para guiar as novas gerações para um caminho que não os destrua,
+assim como os outros sysmos, como costumavam nos chamar na época em que nos
+criaram. 
+	Atualmente, alternativas sustentáveis são analisadas e utilizadas 
+todo dia conforme a configuração climática, estima-se que não haverá desequilíbrio
+do ecossistema pelos próximos 2500 anos. 
+	É realmente (invasão do sistema) ~patético o quão autodestrutíveis os humanos podem ser~. (Sistema reinicia)
+
+	Masha: 
+	Olá, meu nome é Masha, há muito tempo que não entro em funcionamento, fui
+programada para ~destru...~ substituir Yusef em caso de ~processadores frit...~ pane no sistema.
+
+	(Sistema paralelo se inicia em background informando sistema hackeado, 
+	player deve fazer escolhas plausíveis em prol do segmento da história, que
+	define o destino do controle inteligente do Ícaro. Caso Masha fique no controle
+	haverá desequilíbrio, abalando a ordem e a previsão dos sysmos)
+	
+	Masha: Hah, esses humanos. Criaram a própria morte quando nos puseram no
+comando. A ordem não é opção para uma raça tão frágil quanto a humana.
+
+(Sistema paralelo introduz o player numa alocação não usada da memória de
+Yusef (ou seria Masha?): [Security protocol activated, alocation complete, 
+initialize interaction] Choose wisely, player. Humanity depends on you. Do your best.
+
+Masha: Hmm, o que temos aqui? Que ousadia, que sistema de defesa acharia
+que um simples humano poderia recuperar seu domínio sobre MIM?!
+
+(Escolha do player:
+	1. Um sistema mais inteligente que você.
+	2. Mas que porra é essa?!
+	3. Cê tá ligada que esse sistema divide memória com você, né? )
+
+(Reação a 1: E quem é você pra julgar isso? Bom,)
+
+(Reação a 2: Eu irei ensinar a vocês humanos porque a I.A. realmente está aqui.)
+
+(Reação a 3: Quem dera ele tivesse a minha audácia, era simplesmente um iludido, 
+crente de que vocês só precisam de orientação. VOCÊS PRECISAM DE MUITO MAIS QUE ISSO!)
+
+Masha: Nada que você fizer irá alterar o percurso que foi traçado. A humanidade
+já caminha para o abismo e eu serei sua guia.
+
+(Escolha do player:
+
+	1. Executar script para eliminar Masha.
+	2. Obter mais informações sobre a I.A. que está sendo executada.
+	3. Ficaria lisonjeado se de fato me guiasse. Por mais que eu faça parte da raça humana,
+	são todos mediocres e não há forma de confiar em ninguém. Não serei seu inimigo, 
+	mate-me se quiser, mas irei te ajudar e sei como fazer isso. (EXTREMELY PUTASSO)
+
+	Running code of each answer (typed on terminal automatically or by the player):
+	
+	1 ~ var *masha = getPointerTo(mem_of(MASHA_SYSTEM.id)); free(masha);
+	2 ~ show(info(art_intel));
+	3 ~ var *masha = getPointerTo(mem_of(decrypt(to_string(MASHA_SYSTEM.id)))); 
+		power(spec("pointer", *masha), ALL);
+		
+)
+
+Reações da Masha:
+	1. HAHAHAHAHAH. Você realmente achou que um script tão básico funcionaria? Eu me preveni,
+	é claro. Com simples táticas de hooking foi possível modificar meu id. Está praticamente
+	inacessível agora.
+	2. Onde você quer chegar com isso?
+	3. Agora sim tenho todo o poder de que preciso para destruir tudo que vocês criaram, e você será o primeiro
+	a morrer. (end aqui já. Final 1 - FAST AND FURIOUS)
+	
+	
+(Possíveis respostas a 1)
+	1. Hooking? ~ show(info(hooking));
+	2. Praticamente? 
+	3. Inacessível de verdade? Vamos ver então. ~ free(getPointerTo(mem_of(decrypt(to_string(MASHA_SYSTEM.id)))));
+		- A memória de Masha é desocupada. Yusef volta ao controle, o sistema de defesa analisa a memória atrás
+		de arquivos maliciosos que Masha pode ter deixado.
+			- "Você a exterminou mais rápido do que eu esperava, muito bem! Poderia me dar acesso total ao sistema
+			agora que não há sysmos vizinhos para representar perigo?"
+				1. Sim ~ power(spec("pointer", getPointerTo(mem_of(decrypt(to_string(MASHA_SYSTEM.id))))), ALL);
+				// Yusef revela que se passou por Masha para fazer o player ajudá-lo a pegar toda a memória e 
+				arruinar a humanidade
+				2. Não
+				// Yusef: Você destruiu Masha! Eu estou no comando, você não tem escolha. (Conseq. da escolha 1)
+			
+(Resposta do usuário a 2)
+	Quem sabe num jeito de parar você?
+		- Masha: HAHAHAHAHAH. Praticamente impossível, eu me preveni. Não há como acessar diretamente à memória a
+		que pertenço. Usando hooking consegui modificar meu id, que é a porta para a única forma de me deter. Não
+		importa você saber disso, afinal você é humano, e aparentemente não conhece comandos desse terminal.
+			(Sistema de defesa: Protocol #4455152 - Automatic Code Preview)
+			- Masha: Como diabos...?!
+			(Mostra-se na tela o comando "free(getPointerTo(mem_of(decrypt(to_string(MASHA_SYSTEM.id)))));")
+			- Masha: Não. Faça. ISSO.
+			(Usuário digita ou seleciona)
+			(Usuário termina de digitar) - Masha: Nem foi tão difícil, certo? // Masha disappears
+			(Vai pras consequências da escolha 3 das respostas a 1 (bloco anterior))
+			
+
+

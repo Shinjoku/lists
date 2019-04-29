@@ -1,0 +1,34 @@
+Dijkstra:
+    http://www.dainf.ct.utfpr.edu.br/~kaestner/MatematicaDiscreta/Conteudo/Algoritmos/Algoritmo%20de%20Dijkstra%20%96%20Wikip%E9dia.pdf
+    
+Insertion Sort:
+    http://www.ft.unicamp.br/liag/siteEd/implementacao/insertion-sort.php
+    
+Quick Sort:
+    void quick(int vet[], int Esq, int Dir){
+    
+        int i, j;
+        int pivo, aux;
+        printf("Chamou quick com %d %d \n", Esq, Dir);
+        i = Esq; j = Dir;
+        pivo = vet[(i+j)/2];
+        
+        do{
+            while (vet[i] < pivo) i++;
+            while (vet[j] > pivo) j--;
+            if (i <= j){
+                aux = vet[i];
+                vet[i] = vet[j];
+                vet[j] = aux;
+                i++;
+                j--;
+            } 
+        } while (i < j);
+        
+        if (Esq < j) quick (vet, Esq, j);
+        if (Dir > i) quick (vet, i, Dir);
+    }
+    
+Bubble Sort:
+    http://www.ft.unicamp.br/liag/siteEd/implementacao/bubble-sort.php
+    

@@ -1,0 +1,15 @@
+    > Decompressing data... Done!
+    > Accessing data... Done!
+    > Showing the content of art_intel.txt:
+    
+    Inteligência Artificial foi uma tecnologia criada por volta do século 21, ápice da época, usada
+para carros autônomos e outros tipos de interação com o usuário. Na época pré-armagedom, cientistas
+criaram inteligências artificiais integráveis às pessoas, pois era previsto que ocorreria o evento
+que hoje chamamos de armagedom.
+    Infelizmente, nem todos receberam acesso à tecnologia em questão, pois os produtos tinham
+alto custo de produção (a mão de obra tinha de ser extremamente qualificada) e tempo, mesmo eles
+sendo entregues à medida com que ficavam prontos. Além disso, o choque com a Lua, o satélite natural
+do nosso planeta natal, ocorreu muito antes do que os cientistas haviam previsto.
+    Atualmente, as inteligências artificiais possuem poder de controle sobre ações que julgarem ser
+potencialmente preocupantes em relação ao futuro da raça humana. Estima-se que haverá equilíbrio 
+natural por cerca de 2500 anos graças à implementação dessa tecnologia.
