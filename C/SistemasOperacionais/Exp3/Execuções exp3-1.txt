@@ -1,0 +1,108 @@
+    Com PROTECT definido:
+            
+            Execução 1:
+
+Filho 1 comecou ...
+Filho 2 comecou ...
+Filho 3 comecou ...
+ ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 1234567890
+ ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 1234567890
+ ABCDEFGHIJKLMNOPQRSTUVWXYZ 
+ 
+            Execução 2:
+   
+Filho 3 comecou ...
+Filho 2 comecou ...
+Filho 1 comecou ...
+ ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 123456
+ 
+            Execução 3:
+
+Filho 3 comecou ...
+Filho 2 comecou ...
+Filho 1 comecou ...
+ ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 1234567890
+ ABCDEFGHIJKLMNOPQ
+ 
+            Execução 4:
+Filho 1 comecou ...
+Filho 2 comecou ...
+Filho 3 comecou ...
+ ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 1234567890
+ ABCDEFGHIJKLM
+
+
+            Execução 5:
+
+Filho 1 comecou ...
+Filho 2 comecou ...
+Filho 3 comecou ...
+ ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 1234567890
+ ABC
+ 
+
+        Sem PROTECT definido:
+        
+            Execução 1:
+
+Filho 1 comecou ...
+Filho 2 comecou ...
+Filho 3 comecou ...
+ A  BACABDBECFDGEHFIGJHKILJMKCNDLEOPMFQNRGSOHPTIUJQKKRLLSMTNMUOVOPWPQQXRSTUVWXYZRYSZ TUabVWc XdabeYcfdZg ehfaigbjhcikdjlekmfglnhmonipqojrpksqltrumvsntowupxvyqwzrx syz1t2 u31v22w3xxy4yzz  11223344556677889090
+ A
+ BAB5CDEFGHIJK6CL7DM8EN9F0G
+HO IPJABQKLCRDSEMTFNUGOVHPWIQXJRYSZKT LUVMaNWbOXcPYdQZeR fSaTgUbhVicWjdXkeYlZfm ngaohbpicjqkdrlemsnftoguhvipwjxqkyrlszmtn ou1pq2vrw3sxty4uz5v6w7 x81y92z30 4152637485
+ 96078
+ 9A0BC
+ DAAEBFCGDHEIBFJCGKDHLEIM
+ 
+            Execução 2:
+            
+Filho 1 comecou ...
+Filho 2 comecou ...
+Filho 3 comecou ...
+  A ABABBCCCDDEEDEFFFGGGHHHIIJIJKJKKLLLMMNNOONPOPPQQQRRSSRSTTTUUUUVVVWWWXXXYYYZZZ   aababcbcdcdedfeegffhgghihjiikjjlkkmllmnmnonopooqpprqqsrrtssuttvuuwvvxwwxxyyyzz z 1 1212323434545657668779880990
+ 0A
+ B
+ AACBBDECCFDGDEHFEIGFJHGKHLIIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 123JMNKOLPQMNROSTPUQRVS4T5UW6XV7YWZX YaZb cadbecfdgeh8fi9gj0hkil
+ jmAnkBolpCmqDnrEosFptqGurHvIswtJxKuyvLzwM xN1yO2zP3 Q41R52S63T748U59V6W07X8Y
+ Z9A0  aabb
+ ccAddBeefCfgDghEFhiGjHiIkjJ
+ 
+            Execução 3:
+            
+Filho 1 comecou ...
+Filho 2 comecou ...
+Filho 3 comecou ...
+  A BAACBBCDCDEDEEFFFGGGHHHIJJJKKKLLLMMMNNNOOOPPPQQQRRSRSTSTUTUVVUWWVXXWYYXZYZ Z aa bbaccbddceedffeggfhhgiihjjikkjllkmmnlnomopnpqqorrpssqttrusvtwxuuyvvzww xx1yy2zz3  4115262374385496507687
+ 98A09B
+ 0CAD
+ BEACFBGGCHHDIIEJJFKGHKLILMNNMOONPPOQQPRRQSSTTRUUSVVTWWUXVXWYYXZZY  aZab bcacdbdecefdfgeghfhigjjhkkilljmmknnolomppqqqrrrssstttuuuvvvwwxwxyxyyzzz   111222333444555666778788999000
+
+  
+ AAABBBCCCDDEDEFEFGFGHGHHHIIIJJJKKKLLLMMMNNNOOOPPPQQQRRRSSSTTTUUUVVVWWWXXXYYYZZZ   aaabbbcccdddeeefffggghhhiiijjjkkklllmmmnnnooopppqqqrrrssstttuuvuvwvwxwxyxzzy  z11 2213324435566477588699700890
+
+  AA
+ BBACCBDDEECFFDGGEHHFIIGJJHKKILLJMMKNNLOOMPP
+ 
+ 
+            Execução 4:
+            
+Filho 1 comecou ...
+Filho 2 comecou ...
+Filho 3 comecou ...
+  A BAACBBCDCDEDEEFFFGGGHHHIJJJKKKLLLMMMNNNOOOPPPQQQRRSRSTSTUTUVVUWWVXXWYYXZYZ Z aa bbaccbddceedffeggfhhgiihjjikkjllkmmnlnomopnpqqorrpssqttrusvtwxuuyvvzww xx1yy2zz3  4115262374385496507687
+ 98A09B
+ 0CAD
+ BEACFBGGCHHDIIEJJFKGHKLILMNNMOONPPOQQPRRQSSTTRUUSVVTWWUXVXWYYXZZY  aZab bcacdbdecefdfgeghfhigjjhkkilljmmknnolomppqqqrrrssstttuuuvvvwwxwxyxyyzzz   111222333444555666778788999000
+
+  
+ AAABBBCCCDDEDEFEFGFGHGHHHIIIJJJKKKLLLMMMNNNOOOPPPQQQRRRSSSTTTUUUVVVWWWXXXYYYZZZ   aaabbbcccdddeeefffggghhhiiijjjkkklllmmmnnnooopppqqqrrrssstttuuvuvwvwxwxyxzzy  z11 2213324435566477588699700890
+
+  AA
+ BBACCBDDEECFFDGGEHHFIIGJJHKKILLJMMKNNLOOMPP
+ 
+ 
+            Execução 5:
+            
+            

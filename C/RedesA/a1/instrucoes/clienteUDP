@@ -1,0 +1,23 @@
+1. Encontre o endereço IP e o número de porta de protocolo do servidor com o qual a
+comunicação é desejada. 
+--- localhost 5000 ---
+
+2. Aloque um soquete
+--- socket(AF_INET, SOCK_DGRAM, 0); ---
+
+3. Especifique que a conexão precisa de uma porta de protocolo arbitrária, não usada na
+máquina local, e permita ao UDP escolher uma
+--- server.sin_port         = htons(5000)           ---
+--- server.family           = AF_INET               ---
+--- server.sin_addr.s_addr  = inet_addr(localhost)  ---
+
+4. Especifique o servidor para o qual devem ser enviadas mensagens
+---  ---
+
+5. Comunique-se com o servidor usando o protocolo do nível de aplicação
+(isto normalmente envolve enviar requisições e esperar pelas respostas)
+--- sendto e recvfrom ---
+
+
+6. Feche o soquete.
+--- close(s); ---

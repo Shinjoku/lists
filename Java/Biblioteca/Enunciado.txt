@@ -1,0 +1,48 @@
+Sistema de Bibliotecas – Data de Entrega: 21/09/2016 – Peso: 15% da média de laboratório.
+
+Pretende-se implementar um sistema que gerencia uma biblioteca em uma universidade.
+O sistema deverá apresentar as seguintes funcionalidades básicas:
+- Cadastrar alunos (usuários da biblioteca): Nesta funcionalidade, não será permitido cadastrar dois usuários com o mesmo RA.
+
+- Cadastrar livros (que serão emprestados aos usuários): 
+    Nesta funcionalidade deverão ser cadastrados para cada livro, sua quantidade. 
+    Ou seja, um mesmo título pode ter 5 exemplares diferentes para empréstimo. 
+    Se for cadastrado mais um exemplar de um mesmo livro, sua quantidade deve ser incrementada.
+    
+- Emprestar Livros: Um usuário pode realizar o empréstimo de até 3 exemplares de livros. 
+    Nesta funcionalidade deve-se verificar: se o usuário extrapolou a cota de exemplares emprestados; 
+    e se o título a ser emprestado possui exemplares disponíveis para empréstimo. 
+    O empréstimo de livros pode ser realizado pelo período de 1 semana. 
+    Para isso, cada vez que o sistema é inicializado, deve-se inserir a data corrente. 
+    Quando o empréstimo ocorrer, o sistema deve informar ao usuário a data de devolução.
+    
+- Devolver Livros: Um usuário pode devolver um título emprestado. 
+    Caso a devolução tenha sido realizada com atraso, o usuário deve ser informado.
+    
+- Consultar Livro por título: Na consulta de um livro por título, o sistema deve fornecer
+    todas as informações de cadastro do título, bem como a quantidade de livros disponíveis para empréstimo.
+    
+- Consultar usuário por nome: Na consulta de usuários por nome, o sistema deve fornecer
+    todas as informações de cadastro do usuário, bem como os livros emprestados à ele, e datas de devolução.
+    
+- Verificar usuários com devolução em atraso: Exibe uma lista de usuários com  entrega de livros em atraso.
+
+- Consultar lista de todos os livros
+
+- Consultar lista de todos os alunos
+
+O sistema deve apresentar no mínimo as seguintes classes:
+- Aluno: 
+ 	- Informações de cadastro de alunos: Nome e RA
+	- Métodos: getters e setters
+	
+- Biblioteca: 
+	- Informações: array de usuários , array de livros
+	- Métodos: apresentação de menu para escolha de opções, cadastro de livro, cadastro de usuário, 
+	empréstimo de livro, devolução de livro, verificação de usuários em atraso, consulta de livro, consulta de aluno.
+	
+- Livro:
+	- Informações de cadastro de livros: Título e quantidade
+	- Métodos: getters e setters
+ 
+- Classe de Teste: Apenas inicializa a classe biblioteca.

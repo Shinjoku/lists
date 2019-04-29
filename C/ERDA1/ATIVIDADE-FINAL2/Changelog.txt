@@ -1,0 +1,57 @@
+30/05/2016 - O que mudou no programa?
+
+* O programa está compilando!
+
+- O programa foi separado em módulos;
+    1. MAIN.C >> Contém toda a main;
+    2. LISTA.C >> Contém todas as especificações das funções que serão usadas para manipulação de listas;
+    3. LISTA.H >> Contém todos os protótipos, definições de structs e constantes relacionadas às listas;
+    4. ARVORE.C >> Contém todas as especificações das funções que serão usadas para manipulação de árvores;
+    5. ARVORE.H >> Contém todos os protótipos, definições de structs e constantes relacionadas às árvores;
+
+- Foi adicionada a função "Insere" e ela está funcionando parcialmente;
+- Foi adicionada a função "Rem" (Remover) e ela está funcionando;
+- Foi adicionado a função "Em Ordem" (print) e ela está funcionando, porém não printa os telefones. 
+    Creio ser algum problema na inserção (Nada confirmado);
+- O CÓDIGO ESTÁ COMENTADO O//
+
+--------------------------------------------------------------------------------------------------------
+
+31/05/2016 - O que mudou no programa?
+
+*O programa está compilando!
+
+- Problema do print dos telefones resolvido;
+- Função CadastraNaArvore:
+    1. Agora está funcionando totalmente!
+    2. Foi modificada para receber CPF e para ser chamada várias vezes;
+
+- Função Rem apresentou problemas para remover a lista de telefones, mas funciona normal com a árvore;
+- Padronização dos protótipos nos arquivos ".h";
+
+--------------------------------------------------------------------------------------------------------
+
+04/06/2016 - O que mudou no programa?
+
+* O programa está compilando!
+* O port das informações para o arquivo "Assinantes.txt" foi iniciado!
+
+- Foi adicionado outro módulo ao programa:
+    6. ARQUIVOS.C >> Contém todas as funções que farão a manipulação dos arquivos;
+    7. ARQUIVOS.H >> Contém os protótipos das funções da Arquivos.c;
+
+- Implementação da função gravaArquivo para gravar as informações no arquivo;
+- Correções de bugs internos no programa;
+- A utilização do Valgrind se fez essencial para achar erros minusciosos;
+    
+--------------------------------------------------------------------------------------------------------
+
+05/06/2016 - O que mudou no programa?
+
+* O programa está compilando!
+
+- Só resta a conclusão do opcional de resgate de dados de um arquivo;
+- Função alteraCadastro que altera os dados de um assinante está completa;
+- Programa parcialmente terminado. Só não foi concluído o resgate de dados de um arquivo;
+
+--------------------------------------------------------------------------------------------------------

@@ -1,0 +1,23 @@
+Experimento 3-1:
+    
+Linha 17:           Inclusão da biblioteca stdlib.h;
+Linha 74:           Inicialização da variável i, responsável pelo controle de iterações simples;
+Linhas 135/145:     Reorganização da atribuição de valores para as structs g_sem_op1 e g_sem_op2. Também foi corrigido o fato da variável g_sem_op2 não ter obtido nenhum valor;
+Linha 167:          Modificação do valor respectivo à atribuição de permissões para a memória compartilhada que estava sendo criada;
+Linha 139:          Foi modificado o comando "exit" para "break"
+Linha 163:          Foi modificado o modo de matar os filhos. Diferente de antes, que era manualmente, agora utiliza-se uma iteração que sempre irá acompanhar o número de filhos que foram criados;
+Linha 211:          Tempo de dormência aumentado de 200 para 400 microsegundos;
+Linha 241:          Correção do parâmetro respectivo à operação que seria feita pelo comando "semop", já que anteriormente o semáforo continuaria livre, quando na verdade teria que esetar sendo bloqueado neste ponto;
+Linha 259:          Correção do parâmetro que seria utilizado no print, de "%f7" para "%c", pois o vetor é composto por caracteres;
+
+Experimento 3-2:
+
+Linhas 23/30:       Adição das constantes respectivas ao id dos novos semáforos e memórias compartilhadas para consumidor, produtor e para o buffer. Além disso, também foi criada uma constante respectiva ao tamanho da string global e o valor do número de filhos também foi aumentado para 8;
+Linhas 47/67:       Criação das variáveis que serão responsáveis pelo armazenamento das informações necessárias para se manipular os semáforos e memórias compartilhadas;
+Linhas 132/164:     Criação de múltiplos semáforos, respectivos ao consumidor, produtor e ao buffer;
+Linhas 171/194:     Criação de múltiplas memórias compartilhadas, que serão utilizadas pelos processos produtores e consumidores;
+Linha 244:          Agora os filhos são categorizados em Produtores e Consumidores, e cada categoria está encarregada de uma função diferente. Para que essa segregação fosse possível, foi incluído um if;
+Linhas 268/281:     São removidos todos os semáforos que foram criados anteriormente;
+Linhas 286/299:     São removidas todas as memórias compartilhadas que foram criadas anteriormente;
+Linhas 317/436:     Criação da função Producer, que define qual será o comportamento de todos os filhos "Produtores". Consiste em criar um número randômico, copiar esse número de caracteres da string global e colocar esses caracteres no buffer, sempre utilizando os semáforos de Produtor e do Buffer, para que nao haja conflitos nos dados.
+Linhas 442/554:     Criação da função Consumer, que define qual será o comportamento de todos os filhos "Consumidores". Consiste em remover todos os caracteres que se encontram no buffer, substituí-los por "#" e printar todos os caracteres obtidos;

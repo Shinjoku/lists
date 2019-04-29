@@ -1,0 +1,21 @@
+Pergunta 1: porque ret não está sendo comparado a algum valor?
+    R:	Porque só é necessário saber se ele é 0 (NULL) ou não e, nesse caso, 
+    qualquer valor diferente de 0 basta, inclusive o 1 que é retornado pela função "myAdd" caso
+    efetue sua função com sucesso;
+
+Pergunta 2: porque não há necessidade de um cast?
+	R:	Porque o valor que será atribuído para "ret" sempre será um inteiro, que coincide com seu tipo;
+
+Pergunta 3: para que serve cada um dos argumentos usados com pthread_create?
+	R:	1º: pthread_t *thread = local que será armazenado o identificador da thread;
+		2º: const pthread_attr_t *attr = Define os atributos da thread que serão modificados 
+		   na compilação. Se for null, então os atributos serão os padrões;
+		3º: void *(*start routine) (void *) = Rotina que será inicializada para a thread;
+		4º: void *args = Argumentos a serem passados para a thread.
+
+Pergunta 4: O que ocorre com as threads criadas, se ainda estiverem sendo executadas
+	e a thread que as criou termina através de um pthread_exit()?
+	R:	
+
+Pergunta 5: Idem à questão anterior, se o termino se da atraves de um exit()?
+	R:	

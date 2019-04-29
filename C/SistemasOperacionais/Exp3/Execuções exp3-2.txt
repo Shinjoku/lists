@@ -1,0 +1,3273 @@
+    Com PROTECT definido:
+            
+            Execução 1 (Tempo de execução = 0.02 secs):
+
+Filho 1 comecou como produtor ...
+Filho 3 comecou como produtor ...
+Filho 5 comecou como consumidor...
+Filho 2 comecou como produtor ...
+Filho 7 comecou como consumidor...
+Filho 4 comecou como produtor ...
+Filho 6 comecou como consumidor...
+Filho 1------------
+Caracteres produzidos: Filho 8 comecou como consumidor...
+ABC
+Indice: 3, indice global produtor: 0
+--------------------
+Filho 5------------
+Caracteres consumidos: ABC
+tmp_index: 3, indice global: 0
+--------------------
+Filho 3------------
+Caracteres produzidos: D
+Indice: 4, indice global produtor: 3
+--------------------
+Filho 7------------
+Caracteres consumidos: D
+tmp_index: 4, indice global: 3
+--------------------
+Filho 1------------
+Caracteres produzidos: EFGH
+Indice: 8, indice global produtor: 4
+--------------------
+Filho 5------------
+Caracteres consumidos: EF
+tmp_index: 6, indice global: 4
+--------------------
+Filho 3------------
+Caracteres produzidos: IJKL
+Indice: 12, indice global produtor: 8
+--------------------
+Filho 7------------
+Caracteres consumidos: GH
+tmp_index: 8, indice global: 6
+--------------------
+Filho 1------------
+Caracteres produzidos: MNO
+Indice: 15, indice global produtor: 12
+--------------------
+Filho 5------------
+Caracteres consumidos: I
+tmp_index: 9, indice global: 8
+--------------------
+Filho 3------------
+Caracteres produzidos: PQRS
+Indice: 19, indice global produtor: 15
+--------------------
+Filho 6------------
+Caracteres consumidos: JK
+tmp_index: 11, indice global: 9
+--------------------
+Filho 4------------
+Caracteres produzidos: TU
+Indice: 21, indice global produtor: 19
+--------------------
+Filho 7------------
+Caracteres consumidos: LM
+tmp_index: 13, indice global: 11
+--------------------
+Filho 2------------
+Caracteres produzidos: VWX
+Indice: 24, indice global produtor: 21
+--------------------
+Filho 8------------
+Caracteres consumidos: NOP
+tmp_index: 16, indice global: 13
+--------------------
+Filho 1------------
+Caracteres produzidos: YZ
+Indice: 26, indice global produtor: 24
+--------------------
+Filho 5------------
+Caracteres consumidos: QRST
+tmp_index: 20, indice global: 16
+--------------------
+Filho 3------------
+Caracteres produzidos:  abcd
+Indice: 31, indice global produtor: 26
+--------------------
+Filho 6------------
+Caracteres consumidos: UVW
+tmp_index: 23, indice global: 20
+--------------------
+Filho 4------------
+Caracteres produzidos: efg
+Indice: 34, indice global produtor: 31
+--------------------
+Filho 7------------
+Caracteres consumidos: XYZ
+tmp_index: 26, indice global: 23
+--------------------
+Filho 2------------
+Caracteres produzidos: h
+Indice: 35, indice global produtor: 34
+--------------------
+Filho 8------------
+tmp_index: 27, indice global: 26
+--------------------
+Filho 1------------
+Caracteres produzidos: ijklm
+Indice: 40, indice global produtor: 35
+--------------------
+--------------------
+Filho 5------------
+Caracteres consumidos: ab
+tmp_index: 29, indice global: 27
+--------------------
+Filho 3------------
+Caracteres produzidos: nopq
+Indice: 44, indice global produtor: 40
+--------------------
+Filho 6------------
+Caracteres consumidos: cde
+tmp_index: 32, indice global: 29
+--------------------
+Filho 4------------
+Caracteres produzidos: rs
+Indice: 46, indice global produtor: 44
+--------------------
+Filho 7------------
+Caracteres consumidos: fg
+tmp_index: 34, indice global: 32
+--------------------
+Filho 2------------
+Caracteres produzidos: tuvw
+Indice: 50, indice global produtor: 46
+--------------------
+Filho 8------------
+Caracteres consumidos: hijkl
+tmp_index: 39, indice global: 34
+--------------------
+Filho 1------------
+Caracteres produzidos: xy
+Indice: 52, indice global produtor: 50
+--------------------
+Filho 5------------
+Caracteres consumidos: mn
+
+            Execução 2 (Tempo de execução = 0.02secs):
+            
+Filho 1 comecou como produtor ...
+Filho 2 comecou como produtor ...
+Filho 3 comecou como produtor ...
+Filho 4 comecou como produtor ...
+Filho 5 comecou como consumidor...
+Filho 6 comecou como consumidor...
+Filho 8 comecou como consumidor...
+Filho 7 comecou como consumidor...
+Filho 2------------
+Caracteres produzidos: ABCDE
+Indice: 5, indice global produtor: 0
+--------------------
+Filho 5------------
+Caracteres consumidos: ABC
+tmp_index: 3, indice global: 0
+--------------------
+Filho 1------------
+Caracteres produzidos: FGHIJ
+Indice: 10, indice global produtor: 5
+--------------------
+Filho 8------------
+Caracteres consumidos: DEFG
+tmp_index: 7, indice global: 3
+--------------------
+Filho 3------------
+Caracteres produzidos: KLMN
+Indice: 14, indice global produtor: 10
+--------------------
+Filho 7------------
+Caracteres consumidos: HIJKL
+tmp_index: 12, indice global: 7
+--------------------
+Filho 4------------
+Caracteres produzidos: OPQRS
+Indice: 19, indice global produtor: 14
+--------------------
+Filho 6------------
+Caracteres consumidos: MN
+tmp_index: 14, indice global: 12
+--------------------
+Filho 2------------
+Caracteres produzidos: TUVWX
+Indice: 24, indice global produtor: 19
+--------------------
+Filho 5------------
+Caracteres consumidos: O
+tmp_index: 15, indice global: 14
+--------------------
+Filho 1------------
+Caracteres produzidos: YZ a
+Indice: 28, indice global produtor: 24
+--------------------
+Filho 8------------
+Caracteres consumidos: PQ
+tmp_index: 17, indice global: 15
+--------------------
+Filho 3------------
+Caracteres produzidos: bcd
+Indice: 31, indice global produtor: 28
+--------------------
+Filho 7------------
+Caracteres consumidos: R
+tmp_index: 18, indice global: 17
+--------------------
+Filho 4------------
+Caracteres produzidos: efgh
+Indice: 35, indice global produtor: 31
+--------------------
+Filho 6------------
+Caracteres consumidos: STU
+tmp_index: 21, indice global: 18
+--------------------
+Filho 2------------
+Caracteres produzidos: ijklm
+Indice: 40, indice global produtor: 35
+--------------------
+Filho 5------------
+Caracteres consumidos: VWXYZ
+tmp_index: 26, indice global: 21
+--------------------
+Filho 1------------
+Caracteres produzidos: nop
+Indice: 43, indice global produtor: 40
+--------------------
+Filho 8------------
+Caracteres consumidos:  ab
+tmp_index: 29, indice global: 26
+--------------------
+Filho 3------------
+Caracteres produzidos: qrst
+Indice: 47, indice global produtor: 43
+--------------------
+Filho 7------------
+Caracteres consumidos: cd
+tmp_index: 31, indice global: 29
+--------------------
+Filho 4------------
+Caracteres produzidos: uvw
+Indice: 50, indice global produtor: 47
+--------------------
+Filho 6------------
+Caracteres consumidos: efgh
+tmp_index: 35, indice global: 31
+--------------------
+Filho 2------------
+Caracteres produzidos: xyz
+Indice: 53, indice global produtor: 50
+--------------------
+Filho 5------------
+Caracteres consumidos: ij
+tmp_index: 37, indice global: 35
+--------------------
+Filho 1------------
+Caracteres produzidos:  12
+Indice: 56, indice global produtor: 53
+--------------------
+Filho 8------------
+Caracteres consumidos: klm
+tmp_index: 40, indice global: 37
+--------------------
+Filho 3------------
+Caracteres produzidos: 3456
+Indice: 60, indice global produtor: 56
+--------------------
+Filho 7------------
+Caracteres consumidos: nop
+tmp_index: 43, indice global: 40
+--------------------
+Filho 4------------
+Caracteres produzidos: 78
+Indice: 62, indice global produtor: 60
+--------------------
+Filho 6------------
+Caracteres consumidos: qrst
+tmp_index: 47, indice global: 43
+--------------------
+Filho 2------------
+Caracteres produzidos: 90
+Indice: 65, indice global produtor: 62
+--------------------
+Filho 5------------
+Caracteres consumidos: uvw
+tmp_index: 50, indice global: 47
+--------------------
+Filho 1------------
+Caracteres produzidos: 
+Indice: 69, indice global produtor: 65
+--------------------
+
+Filho 8------------
+Caracteres consumidos: 
+tmp_index: 50, indice global: 50
+--------------------
+Filho 3------------
+Caracteres produzidos: ABCD
+Indice: 4, indice global produtor: 0
+--------------------
+Filho 7------------
+Caracteres consumidos: 
+tmp_index: 50, indice global: 50
+--------------------
+Filho 4------------
+Caracteres produzidos: E
+Indice: 5, indice global produtor: 4
+--------------------
+Filho 6------------
+Caracteres consumidos: 
+tmp_index: 50, indice global: 50
+--------------------
+Filho 2------------
+Caracteres produzidos: F
+Indice: 6, indice global produtor: 5
+--------------------
+Filho 5------------
+Caracteres consumidos: 
+tmp_index: 50, indice global: 50
+--------------------
+Filho 1------------
+Caracteres produzidos: GHI
+Indice: 9, indice global produtor: 6
+--------------------
+Filho 8------------
+Caracteres consumidos: 
+tmp_index: 50, indice global: 50
+--------------------
+Filho 3------------
+Caracteres produzidos: JKLMN
+Indice: 14, indice global produtor: 9
+--------------------
+Filho 7------------
+Caracteres consumidos: 
+tmp_index: 50, indice global: 50
+--------------------
+Filho 4------------
+Caracteres produzidos: OPQR
+Indice: 18, indice global produtor: 14
+--------------------
+Filho 6------------
+Caracteres consumidos: 
+tmp_index: 50, indice global: 50
+--------------------
+Filho 2------------
+Caracteres produzidos: STU
+Indice: 21, indice global produtor: 18
+--------------------
+Filho 5------------
+Caracteres consumidos: 
+tmp_index: 50, indice global: 50
+--------------------
+Filho 1------------
+Caracteres produzidos: VWXY
+Indice: 25, indice global produtor: 21
+--------------------
+Filho 8------------
+Caracteres consumidos: 
+tmp_index: 50, indice global: 50
+--------------------
+Filho 3------------
+Caracteres produzidos: Z
+Indice: 26, indice global produtor: 25
+--------------------
+Filho 7------------
+Caracteres consumidos: 
+tmp_index: 50, indice global: 50
+--------------------
+Filho 4------------
+Caracteres produzidos:  ab
+Indice: 29, indice global produtor: 26
+--------------------
+Filho 6------------
+Caracteres consumidos: 
+tmp_index: 50, indice global: 50
+--------------------
+Filho 2------------
+Caracteres produzidos: cdef
+Indice: 33, indice global produtor: 29
+--------------------
+Filho 5------------
+Caracteres consumidos: 
+tmp_index: 50, indice global: 50
+--------------------
+Filho 1------------
+Caracteres produzidos: g
+Indice: 34, indice global produtor: 33
+--------------------
+Filho 8------------
+Caracteres consumidos: 
+tmp_index: 50, indice global: 50
+--------------------
+Filho 3------------
+Caracteres produzidos: h
+Indice: 35, indice global produtor: 34
+--------------------
+Filho 7------------
+Caracteres consumidos: 
+tmp_index: 50, indice global: 50
+--------------------
+Filho 4------------
+Caracteres produzidos: ijk
+Indice: 38, indice global produtor: 35
+--------------------
+Filho 6------------
+Caracteres consumidos: 
+tmp_index: 50, indice global: 50
+--------------------
+Filho 2------------
+Caracteres produzidos: lmnop
+Indice: 43, indice global produtor: 38
+--------------------
+Filho 5------------
+Caracteres consumidos: 
+tmp_index: 50, indice global: 50
+--------------------
+Filho 1------------
+Caracteres produzidos: qrst
+Indice: 47, indice global produtor: 43
+--------------------
+Filho 8------------
+Caracteres consumidos: 
+tmp_index: 50, indice global: 50
+--------------------
+Filho 3------------
+Caracteres produzidos: uvw
+Indice: 50, indice global produtor: 47
+--------------------
+Filho 7------------
+Caracteres consumidos: 
+tmp_index: 50, indice global: 50
+--------------------
+Filho 4------------
+Caracteres produzidos: 
+Indice: 55, indice global produtor: 50
+--------------------
+Filho 6------------
+Caracteres consumidos: x
+tmp_index: 51, indice global: 50
+--------------------
+Filho 2------------
+Caracteres produzidos: 
+Indice: 59, indice global produtor: 55
+--------------------
+Filho 5------------
+Caracteres consumidos: yz 
+tmp_index: 54, indice global: 51
+--------------------
+Filho 1------------
+Caracteres produzidos: 
+Indice: 64, indice global produtor: 59
+--------------------
+Filho 8------------
+Caracteres consumidos: 12345
+tmp_index: 59, indice global: 54
+--------------------
+Filho 3------------
+Caracteres produzidos: 
+Indice: 69, indice global produtor: 64
+--------------------
+
+Filho 7------------
+Caracteres consumidos: 
+tmp_index: 59, indice global: 59
+--------------------
+Filho 4------------
+Caracteres produzidos: 
+Indice: 1, indice global produtor: 0
+--------------------
+Filho 6------------
+Caracteres consumidos: 
+tmp_index: 59, indice global: 59
+--------------------
+Filho 2------------
+Caracteres produzidos: 
+Indice: 4, indice global produtor: 1
+--------------------
+Filho 5------------
+Caracteres consumidos: 
+tmp_index: 59, indice global: 59
+--------------------
+Filho 1------------
+Caracteres produzidos: 
+Indice: 9, indice global produtor: 4
+--------------------
+Filho 8------------
+Caracteres consumidos: 
+tmp_index: 59, indice global: 59
+--------------------
+Filho 3------------
+Caracteres produzidos: 
+Indice: 13, indice global produtor: 9
+--------------------
+Filho 7------------
+Caracteres consumidos: 
+tmp_index: 59, indice global: 59
+--------------------
+Filho 4------------
+Caracteres produzidos: 
+Indice: 18, indice global produtor: 13
+--------------------
+Filho 6------------
+Caracteres consumidos: 
+tmp_index: 59, indice global: 59
+--------------------
+Filho 2------------
+Caracteres produzidos: 
+Indice: 20, indice global produtor: 18
+--------------------
+Filho 5------------
+Caracteres consumidos: 
+tmp_index: 59, indice global: 59
+--------------------
+Filho 1------------
+Caracteres produzidos: 
+Indice: 24, indice global produtor: 20
+--------------------
+Filho 8------------
+Caracteres consumidos: 
+tmp_index: 59, indice global: 59
+--------------------
+Filho 3------------
+Caracteres produzidos: 
+Indice: 29, indice global produtor: 24
+--------------------
+Filho 7------------
+Caracteres consumidos: 
+tmp_index: 59, indice global: 59
+--------------------
+Filho 4------------
+Caracteres produzidos: 
+Indice: 30, indice global produtor: 29
+--------------------
+Filho 6------------
+Caracteres consumidos: 
+tmp_index: 59, indice global: 59
+--------------------
+Filho 2------------
+Caracteres produzidos: 
+Indice: 32, indice global produtor: 30
+--------------------
+Filho 5------------
+Caracteres consumidos: 
+tmp_index: 59, indice global: 59
+--------------------
+Filho 1------------
+Caracteres produzidos: 
+Indice: 37, indice global produtor: 32
+--------------------
+Filho 8------------
+Caracteres consumidos: 
+tmp_index: 59, indice global: 59
+--------------------
+Filho 3------------
+Caracteres produzidos: 
+Indice: 42, indice global produtor: 37
+--------------------
+Filho 7------------
+Caracteres consumidos: 
+tmp_index: 59, indice global: 59
+--------------------
+Filho 4------------
+Caracteres produzidos: 
+Indice: 44, indice global produtor: 42
+--------------------
+Filho 6------------
+Caracteres consumidos: 
+tmp_index: 59, indice global: 59
+--------------------
+Filho 2------------
+Caracteres produzidos: 
+Indice: 49, indice global produtor: 44
+--------------------
+Filho 5------------
+Caracteres consumidos: 
+tmp_index: 59, indice global: 59
+--------------------
+Filho 1------------
+Caracteres produzidos: xy
+Indice: 52, indice global produtor: 49
+--------------------
+Filho 8------------
+Caracteres consumidos: 
+tmp_index: 59, indice global: 59
+--------------------
+Filho 3------------
+Caracteres produzidos: z 1
+Indice: 55, indice global produtor: 52
+--------------------
+Filho 7------------
+Caracteres consumidos: 
+tmp_index: 59, indice global: 59
+--------------------
+Filho 4------------
+Caracteres produzidos: 2
+Indice: 56, indice global produtor: 55
+--------------------
+Filho 6------------
+Caracteres consumidos: 
+tmp_index: 59, indice global: 59
+--------------------
+Filho 2------------
+Caracteres produzidos: 34
+Indice: 58, indice global produtor: 56
+--------------------
+Filho 5------------
+Caracteres consumidos: 
+tmp_index: 59, indice global: 59
+--------------------
+
+            Execução 3 (Tempo de execução = 0.02 secs):
+            
+Filho 1 comecou como produtor ...
+Filho 2 comecou como produtor ...
+Filho 3 comecou como produtor ...
+Filho 4 comecou como produtor ...
+Filho 5 comecou como consumidor...
+Filho 6 comecou como consumidor...
+Filho 7 comecou como consumidor...
+Filho 8 comecou como consumidor...
+Filho 1------------
+Caracteres produzidos: ABCD
+Indice: 4, indice global produtor: 0
+--------------------
+Filho 5------------
+Caracteres consumidos: ABCD
+tmp_index: 4, indice global: 0
+--------------------
+Filho 2------------
+Caracteres produzidos: E
+Indice: 5, indice global produtor: 4
+--------------------
+Filho 6------------
+Caracteres consumidos: E
+tmp_index: 5, indice global: 4
+--------------------
+Filho 3------------
+Caracteres produzidos: F
+Indice: 6, indice global produtor: 5
+--------------------
+Filho 7------------
+Caracteres consumidos: F
+tmp_index: 6, indice global: 5
+--------------------
+Filho 4------------
+Caracteres produzidos: GHI
+Indice: 9, indice global produtor: 6
+--------------------
+Filho 8------------
+Caracteres consumidos: GHI
+tmp_index: 9, indice global: 6
+--------------------
+Filho 1------------
+Caracteres produzidos: JKLMN
+Indice: 14, indice global produtor: 9
+--------------------
+Filho 5------------
+Caracteres consumidos: JKL
+tmp_index: 12, indice global: 9
+--------------------
+Filho 2------------
+Caracteres produzidos: OP
+Indice: 16, indice global produtor: 14
+--------------------
+Filho 6------------
+Caracteres consumidos: MNOP
+tmp_index: 16, indice global: 12
+--------------------
+Filho 3------------
+Caracteres produzidos: QR
+Indice: 18, indice global produtor: 16
+--------------------
+Filho 7------------
+Caracteres consumidos: Q
+tmp_index: 17, indice global: 16
+--------------------
+Filho 4------------
+Caracteres produzidos: ST
+Indice: 20, indice global produtor: 18
+--------------------
+Filho 8------------
+Caracteres consumidos: RST
+tmp_index: 20, indice global: 17
+--------------------
+Filho 1------------
+Caracteres produzidos: U
+Indice: 21, indice global produtor: 20
+--------------------
+Filho 5------------
+Caracteres consumidos: U
+tmp_index: 21, indice global: 20
+--------------------
+Filho 2------------
+Caracteres produzidos: V
+Indice: 22, indice global produtor: 21
+--------------------
+Filho 6------------
+Caracteres consumidos: V
+tmp_index: 22, indice global: 21
+--------------------
+Filho 3------------
+Caracteres produzidos: WXYZ
+Indice: 26, indice global produtor: 22
+--------------------
+Filho 7------------
+Caracteres consumidos: W
+tmp_index: 23, indice global: 22
+--------------------
+Filho 4------------
+Caracteres produzidos:  abc
+Indice: 30, indice global produtor: 26
+--------------------
+Filho 8------------
+Caracteres consumidos: XYZ
+tmp_index: 26, indice global: 23
+--------------------
+Filho 1------------
+Caracteres produzidos: defgh
+Indice: 35, indice global produtor: 30
+--------------------
+Filho 5------------
+Caracteres consumidos:  a
+tmp_index: 28, indice global: 26
+--------------------
+Filho 2------------
+Caracteres produzidos: ijkl
+Indice: 39, indice global produtor: 35
+--------------------
+Filho 6------------
+Caracteres consumidos: bcdef
+tmp_index: 33, indice global: 28
+--------------------
+Filho 3------------
+Caracteres produzidos: m
+Indice: 40, indice global produtor: 39
+--------------------
+Filho 7------------
+Caracteres consumidos: ghij
+tmp_index: 37, indice global: 33
+--------------------
+Filho 4------------
+Caracteres produzidos: nopqr
+Indice: 45, indice global produtor: 40
+--------------------
+Filho 8------------
+Caracteres consumidos: kl
+tmp_index: 39, indice global: 37
+--------------------
+Filho 1------------
+Caracteres produzidos: stuv
+Indice: 49, indice global produtor: 45
+--------------------
+Filho 5------------
+Caracteres consumidos: mno
+tmp_index: 42, indice global: 39
+--------------------
+Filho 2------------
+Caracteres produzidos: wxyz 
+Indice: 54, indice global produtor: 49
+--------------------
+Filho 6------------
+Caracteres consumidos: pqrs
+tmp_index: 46, indice global: 42
+--------------------
+Filho 3------------
+Caracteres produzidos: 12345
+Indice: 59, indice global produtor: 54
+--------------------
+Filho 7------------
+Caracteres consumidos: tu
+tmp_index: 48, indice global: 46
+--------------------
+Filho 4------------
+Caracteres produzidos: 67890
+Indice: 64, indice global produtor: 59
+--------------------
+Filho 8------------
+Caracteres consumidos: vwxyz
+tmp_index: 53, indice global: 48
+--------------------
+Filho 1------------
+Caracteres produzidos: 
+Indice: 65, indice global produtor: 64
+--------------------
+Filho 5------------
+Caracteres consumidos:  1
+tmp_index: 55, indice global: 53
+--------------------
+Filho 2------------
+Caracteres produzidos: 
+Indice: 70, indice global produtor: 65
+--------------------
+
+Filho 6------------
+Caracteres consumidos: 
+tmp_index: 55, indice global: 55
+--------------------
+Filho 3------------
+Caracteres produzidos: A
+Indice: 1, indice global produtor: 0
+--------------------
+Filho 7------------
+Caracteres consumidos: 
+tmp_index: 55, indice global: 55
+--------------------
+Filho 4------------
+Caracteres produzidos: BCDE
+Indice: 5, indice global produtor: 1
+--------------------
+Filho 8------------
+Caracteres consumidos: 
+tmp_index: 55, indice global: 55
+--------------------
+Filho 1------------
+Caracteres produzidos: FGH
+Indice: 8, indice global produtor: 5
+--------------------
+Filho 5------------
+Caracteres consumidos: 
+tmp_index: 55, indice global: 55
+--------------------
+Filho 2------------
+Caracteres produzidos: I
+Indice: 9, indice global produtor: 8
+--------------------
+Filho 6------------
+Caracteres consumidos: 
+tmp_index: 55, indice global: 55
+--------------------
+Filho 3------------
+Caracteres produzidos: J
+Indice: 10, indice global produtor: 9
+--------------------
+Filho 7------------
+Caracteres consumidos: 
+tmp_index: 55, indice global: 55
+--------------------
+Filho 4------------
+Caracteres produzidos: KLM
+Indice: 13, indice global produtor: 10
+--------------------
+Filho 8------------
+Caracteres consumidos: 
+tmp_index: 55, indice global: 55
+--------------------
+Filho 1------------
+Caracteres produzidos: NOPQ
+Indice: 17, indice global produtor: 13
+--------------------
+Filho 5------------
+Caracteres consumidos: 
+tmp_index: 55, indice global: 55
+--------------------
+Filho 2------------
+Caracteres produzidos: RS
+Indice: 19, indice global produtor: 17
+--------------------
+Filho 6------------
+Caracteres consumidos: 
+tmp_index: 55, indice global: 55
+--------------------
+Filho 3------------
+Caracteres produzidos: TUVW
+Indice: 23, indice global produtor: 19
+--------------------
+Filho 7------------
+Caracteres consumidos: 
+tmp_index: 55, indice global: 55
+--------------------
+Filho 4------------
+Caracteres produzidos: XYZ 
+Indice: 27, indice global produtor: 23
+--------------------
+Filho 8------------
+Caracteres consumidos: 
+tmp_index: 55, indice global: 55
+--------------------
+Filho 1------------
+Caracteres produzidos: a
+Indice: 28, indice global produtor: 27
+--------------------
+Filho 5------------
+Caracteres consumidos: 
+tmp_index: 55, indice global: 55
+--------------------
+Filho 2------------
+Caracteres produzidos: bcdef
+Indice: 33, indice global produtor: 28
+--------------------
+Filho 6------------
+Caracteres consumidos: 
+tmp_index: 55, indice global: 55
+--------------------
+Filho 3------------
+Caracteres produzidos: g
+Indice: 34, indice global produtor: 33
+--------------------
+Filho 7------------
+Caracteres consumidos: 
+tmp_index: 55, indice global: 55
+--------------------
+Filho 4------------
+Caracteres produzidos: hijk
+Indice: 38, indice global produtor: 34
+--------------------
+Filho 8------------
+Caracteres consumidos: 
+tmp_index: 55, indice global: 55
+--------------------
+Filho 1------------
+Caracteres produzidos: l
+Indice: 39, indice global produtor: 38
+--------------------
+Filho 5------------
+Caracteres consumidos: 
+tmp_index: 55, indice global: 55
+--------------------
+Filho 2------------
+Caracteres produzidos: m
+Indice: 40, indice global produtor: 39
+--------------------
+Filho 6------------
+Caracteres consumidos: 
+tmp_index: 55, indice global: 55
+--------------------
+Filho 3------------
+Caracteres produzidos: nopqr
+Indice: 45, indice global produtor: 40
+--------------------
+Filho 7------------
+Caracteres consumidos: 
+tmp_index: 55, indice global: 55
+--------------------
+Filho 4------------
+Caracteres produzidos: st
+Indice: 47, indice global produtor: 45
+--------------------
+Filho 8------------
+Caracteres consumidos: 
+tmp_index: 55, indice global: 55
+--------------------
+Filho 1------------
+Caracteres produzidos: uvwx
+Indice: 51, indice global produtor: 47
+--------------------
+Filho 5------------
+Caracteres consumidos: 
+tmp_index: 55, indice global: 55
+--------------------
+Filho 2------------
+Caracteres produzidos: yz 1
+Indice: 55, indice global produtor: 51
+--------------------
+Filho 6------------
+Caracteres consumidos: 
+tmp_index: 55, indice global: 55
+--------------------
+Filho 3------------
+Caracteres produzidos: 
+Indice: 57, indice global produtor: 55
+--------------------
+Filho 7------------
+Caracteres consumidos: 23
+tmp_index: 57, indice global: 55
+--------------------
+Filho 4------------
+Caracteres produzidos: 
+Indice: 59, indice global produtor: 57
+--------------------
+Filho 8------------
+Caracteres consumidos: 45
+tmp_index: 59, indice global: 57
+--------------------
+Filho 1------------
+Caracteres produzidos: 
+Indice: 63, indice global produtor: 59
+--------------------
+Filho 5------------
+Caracteres consumidos: 6789
+tmp_index: 63, indice global: 59
+--------------------
+Filho 2------------
+Caracteres produzidos: 
+Indice: 68, indice global produtor: 63
+--------------------
+
+Filho 6------------
+Caracteres consumidos: 
+tmp_index: 63, indice global: 63
+--------------------
+Filho 3------------
+Caracteres produzidos: 
+Indice: 2, indice global produtor: 0
+--------------------
+Filho 7------------
+Caracteres consumidos: 
+tmp_index: 63, indice global: 63
+--------------------
+Filho 4------------
+Caracteres produzidos: 
+Indice: 5, indice global produtor: 2
+--------------------
+Filho 8------------
+Caracteres consumidos: 
+tmp_index: 63, indice global: 63
+--------------------
+Filho 1------------
+Caracteres produzidos: 
+Indice: 8, indice global produtor: 5
+--------------------
+Filho 5------------
+Caracteres consumidos: 
+tmp_index: 63, indice global: 63
+--------------------
+Filho 2------------
+Caracteres produzidos: 
+Indice: 9, indice global produtor: 8
+--------------------
+Filho 6------------
+Caracteres consumidos: 
+tmp_index: 63, indice global: 63
+--------------------
+Filho 3------------
+Caracteres produzidos: 
+Indice: 12, indice global produtor: 9
+--------------------
+Filho 7------------
+Caracteres consumidos: 
+tmp_index: 63, indice global: 63
+--------------------
+Filho 4------------
+Caracteres produzidos: 
+Indice: 16, indice global produtor: 12
+--------------------
+Filho 8------------
+Caracteres consumidos: 
+tmp_index: 63, indice global: 63
+--------------------
+Filho 1------------
+Caracteres produzidos: 
+Indice: 17, indice global produtor: 16
+--------------------
+Filho 5------------
+Caracteres consumidos: 
+tmp_index: 63, indice global: 63
+--------------------
+Filho 2------------
+Caracteres produzidos: 
+Indice: 19, indice global produtor: 17
+--------------------
+Filho 6------------
+Caracteres consumidos: 
+tmp_index: 63, indice global: 63
+--------------------
+Filho 3------------
+Caracteres produzidos: 
+Indice: 23, indice global produtor: 19
+--------------------
+Filho 7------------
+Caracteres consumidos: 
+tmp_index: 63, indice global: 63
+--------------------
+Filho 4------------
+Caracteres produzidos: 
+Indice: 28, indice global produtor: 23
+--------------------
+Filho 8------------
+Caracteres consumidos: 
+tmp_index: 63, indice global: 63
+--------------------
+Filho 1------------
+Caracteres produzidos: 
+Indice: 30, indice global produtor: 28
+--------------------
+Filho 5------------
+Caracteres consumidos: 
+tmp_index: 63, indice global: 63
+--------------------
+Filho 2------------
+Caracteres produzidos: 
+Indice: 33, indice global produtor: 30
+--------------------
+Filho 6------------
+Caracteres consumidos: 
+tmp_index: 63, indice global: 63
+--------------------
+Filho 3------------
+Caracteres produzidos: 
+Indice: 38, indice global produtor: 33
+--------------------
+Filho 7------------
+Caracteres consumidos: 
+tmp_index: 63, indice global: 63
+--------------------
+Filho 4------------
+Caracteres produzidos: 
+Indice: 39, indice global produtor: 38
+--------------------
+Filho 8------------
+Caracteres consumidos: 
+tmp_index: 63, indice global: 63
+--------------------
+Filho 1------------
+Caracteres produzidos: 
+Indice: 42, indice global produtor: 39
+--------------------
+Filho 5------------
+Caracteres consumidos: 
+tmp_index: 63, indice global: 63
+--------------------
+Filho 2------------
+Caracteres produzidos: 
+Indice: 47, indice global produtor: 42
+--------------------
+Filho 6------------
+Caracteres consumidos: 
+tmp_index: 63, indice global: 63
+--------------------
+Filho 3------------
+Caracteres produzidos: 
+Indice: 49, indice global produtor: 47
+--------------------
+Filho 7------------
+Caracteres consumidos: 
+tmp_index: 63, indice global: 63
+--------------------
+Filho 4------------
+Caracteres produzidos: 
+Indice: 54, indice global produtor: 49
+--------------------
+Filho 8------------
+Caracteres consumidos: 
+tmp_index: 63, indice global: 63
+--------------------
+Filho 1------------
+Caracteres produzidos: 2
+Indice: 56, indice global produtor: 54
+--------------------
+Filho 5------------
+Caracteres consumidos: 
+tmp_index: 63, indice global: 63
+--------------------
+Filho 2------------
+Caracteres produzidos: 3456
+Indice: 60, indice global produtor: 56
+--------------------
+Filho 6------------
+Caracteres consumidos: 
+tmp_index: 63, indice global: 63
+--------------------
+Filho 3------------
+Caracteres produzidos: 789
+Indice: 65, indice global produtor: 60
+--------------------
+Filho 7------------
+Caracteres consumidos: 0
+tmp_index: 68, indice global: 63
+--------------------
+
+Buffer: (C) ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 123456789##
+Filho 4------------
+Caracteres produzidos: 
+Indice: 67, indice global produtor: 65
+--------------------
+
+Filho 8------------
+Caracteres consumidos: 
+tmp_index: 0, indice global: 0
+--------------------
+
+            Execução 4 (Tempo de execução 0.002):
+
+Filho 1 comecou como produtor ...
+Filho 2 comecou como produtor ...
+Filho 3 comecou como produtor ...
+Filho 4 comecou como produtor ...
+Filho 5 comecou como consumidor...
+Filho 6 comecou como consumidor...
+Filho 7 comecou como consumidor...
+Filho 8 comecou como consumidor...
+Filho 1------------
+Caracteres produzidos: ABCDE
+Indice: 5, indice global produtor: 0
+--------------------
+Filho 5------------
+Caracteres consumidos: ABCDE
+tmp_index: 5, indice global: 0
+--------------------
+Filho 2------------
+Caracteres produzidos: FGHIJ
+Indice: 10, indice global produtor: 5
+--------------------
+Filho 6------------
+Caracteres consumidos: FG
+tmp_index: 7, indice global: 5
+--------------------
+Filho 4------------
+Caracteres produzidos: 
+
+            Execução 5 (Tempo de execução = 0.002 secs):
+Filho 1 comecou como produtor ...
+Filho 2 comecou como produtor ...
+Filho 3 comecou como produtor ...
+Filho 4 comecou como produtor ...
+Filho 5 comecou como consumidor...
+Filho 6 comecou como consumidor...
+Filho 7 comecou como consumidor...
+Filho 8 comecou como consumidor...
+Filho 1------------
+Caracteres produzidos: ABCDE
+Indice: 5, indice global produtor: 0
+--------------------
+Filho 5------------
+Caracteres consumidos: A
+tmp_index: 1, indice global: 0
+--------------------
+Filho 2------------
+Caracteres produzidos: F
+Indice: 6, indice global produtor: 5
+--------------------
+Filho 6------------
+Caracteres consumidos: B
+tmp_index: 2, indice global: 1
+--------------------
+Filho 3------------
+Caracteres produzidos: GH
+Indice: 8, indice global produtor: 6
+--------------------
+Filho 7------------
+Caracteres consumidos: CD
+tmp_index: 4, indice global: 2
+--------------------
+Filho 4------------
+Caracteres produzidos: IJKLM
+Indice: 13, indice global produtor: 8
+--------------------
+Filho 5------------
+
+        Sem PROTECT definido:
+        
+            Execução 1 (Tempo de execução: 0.02 secs):
+
+Indice: 21, indice global produtor: 12
+--------------------
+Indice: 16, indice global produtor: 12
+Caracteres consumidos: 
+--------------------
+Filho 8------------
+--------------------
+tmp_index: 22, indice global: 21
+Filho 4------------
+Caracteres consumidos: 
+Filho 2------------
+--------------------
+Caracteres produzidos: tmp_index: 21, indice global: 21
+Caracteres produzidos: Filho 6------------
+--------------------
+
+Caracteres consumidos: 
+Filho 8------------
+Indice: 21, indice global produtor: 16
+tmp_index: 22, indice global: 21
+Caracteres consumidos: 
+--------------------
+--------------------
+tmp_index: 21, indice global: 21
+Filho 2------------
+Filho 6------------
+--------------------
+Caracteres produzidos: Caracteres consumidos: 
+Filho 8------------
+
+tmp_index: 22, indice global: 21
+Caracteres consumidos: 
+--------------------
+Indice: 22, indice global produtor: 21
+tmp_index: 21, indice global: 21
+Filho 6------------
+--------------------
+--------------------
+Filho 2------------
+Caracteres consumidos: 
+Filho 8------------
+tmp_index: 22, indice global: 21
+Caracteres produzidos: Caracteres consumidos: V--------------------
+
+Filho 6------------
+Indice: 24, indice global produtor: 22
+Caracteres consumidos: 
+--------------------
+tmp_index: 22, indice global: 22
+--------------------
+Filho 2------------
+Filho 6------------
+Caracteres produzidos: Caracteres consumidos: W
+Indice: 27, indice global produtor: 24
+--------------------
+Filho 2------------
+Caracteres produzidos: 
+Indice: 30, indice global produtor: 27
+--------------------
+Filho 2------------
+Caracteres produzidos: 
+Indice: 33, indice global produtor: 30
+--------------------
+Filho 2------------
+Caracteres produzidos: 
+Indice: 36, indice global produtor: 33
+--------------------
+Filho 2------------
+Caracteres produzidos: 
+Indice: 39, indice global produtor: 36
+--------------------
+Filho 2------------
+#Caracteres produzidos: 
+Indice: 43, indice global produtor: 39
+--------------------
+Filho 2------------
+Caracteres produzidos: 
+Indice: 47, indice global produtor: 43
+--------------------
+Filho 2------------
+Caracteres produzidos: 
+XIndice: 51, indice global produtor: 47
+--------------------
+Filho 2------------
+Caracteres produzidos: 
+Indice: 56, indice global produtor: 51
+--------------------
+Filho 2------------
+Caracteres produzidos: 
+Indice: 61, indice global produtor: 56
+--------------------
+Filho 2------------
+Caracteres produzidos: 
+Indice: 66, indice global produtor: 61
+--------------------
+
+
+Filho 2------------
+tmp_index: 23, indice global: 22
+Caracteres produzidos: --------------------
+
+Filho 8------------
+Indice: 5, indice global produtor: 0
+Caracteres consumidos: 
+--------------------
+
+tmp_index: 23, indice global: 23
+--------------------
+Filho 8------------
+Caracteres consumidos: 
+tmp_index: 23, indice global: 23
+--------------------
+Filho 8------------
+Caracteres consumidos: 
+tmp_index: 23, indice global: 23
+--------------------
+Filho 8------------
+Caracteres consumidos: 
+tmp_index: 23, indice global: 23
+--------------------
+Filho 8------------
+Caracteres consumidos: 
+tmp_index: 23, indice global: 23
+--------------------
+Filho 8------------
+Caracteres consumidos: 
+tmp_index: 23, indice global: 23
+--------------------
+Filho 8------------
+Filho 2------------
+tmp_index: 24, indice global: 23
+Caracteres consumidos: 
+Caracteres produzidos: --------------------
+tmp_index: 23, indice global: 23
+
+Filho 6------------
+--------------------
+Indice: 6, indice global produtor: 5
+Caracteres consumidos: 
+Filho 8------------
+--------------------
+tmp_index: 24, indice global: 23
+Caracteres consumidos: 
+Filho 2------------
+--------------------
+tmp_index: 23, indice global: 23
+Caracteres produzidos: Filho 6------------
+--------------------
+
+Caracteres consumidos: 
+Filho 8------------
+Indice: 9, indice global produtor: 6
+tmp_index: 24, indice global: 23
+Caracteres consumidos: 
+tmp_index: 23, indice global: 23
+--------------------
+--------------------
+--------------------
+Filho 8------------
+Filho 2------------
+Caracteres produzidos: 
+Indice: 14, indice global produtor: 9
+--------------------
+Filho 2------------
+Caracteres produzidos: 
+Indice: 16, indice global produtor: 14
+--------------------
+Filho 2------------
+Caracteres produzidos: 
+Indice: 18, indice global produtor: 16
+--------------------
+Filho 2------------
+Caracteres produzidos: 
+Indice: 21, indice global produtor: 18
+--------------------
+Filho 2------------
+Caracteres produzidos: --------------------
+Filho 1------------
+Caracteres produzidos: 
+Indice: 16, indice global produtor: 13
+--------------------
+Filho 1------------
+Caracteres produzidos: 
+Indice: 20, indice global produtor: 16
+--------------------
+Filho 1------------
+Caracteres produzidos: 
+tmp_index: 15, indice global: 24
+--------------------
+Filho 7------------
+Caracteres consumidos: PV
+Indice: 24, indice global produtor: 20
+--------------------
+Filho 2------------
+Caracteres produzidos: 
+Indice: 29, indice global produtor: 24
+--------------------
+Filho 2------------
+Caracteres produzidos: 
+Indice: 34, indice global produtor: 29
+--------------------
+Filho 2------------
+Caracteres produzidos: 
+Indice: 35, indice global produtor: 34
+--------------------
+Filho 2------------
+Caracteres produzidos: 
+Indice: 36, indice global produtor: 35
+--------------------
+Filho 2------------
+Caracteres produzidos: 
+Filho 3------------
+Indice: 37, indice global produtor: 36
+--------------------
+QFilho 2------------
+Caracteres produzidos: Caracteres produzidos: 
+Indice: 38, indice global produtor: 37
+--------------------
+
+WX
+Filho 2------------
+Indice: 19, indice global produtor: 38
+Caracteres produzidos: Indice: 24, indice global produtor: 38
+--------------------
+
+--------------------
+RFilho 3------------
+Indice: 40, indice global produtor: 19
+Filho 1------------
+Caracteres produzidos: --------------------
+Caracteres produzidos: Filho 2------------
+
+
+Caracteres produzidos: Indice: 21, indice global produtor: 40
+
+Indice: 26, indice global produtor: 40
+--------------------
+--------------------
+Indice: 43, indice global produtor: 40
+Filho 3------------
+Filho 1------------
+--------------------
+SCaracteres produzidos: Caracteres produzidos: Filho 2------------
+
+
+Caracteres produzidos: Indice: 24, indice global produtor: 43
+
+Indice: 30, indice global produtor: 43
+Indice: 47, indice global produtor: 43
+--------------------
+--------------------
+--------------------
+Filho 2------------
+Caracteres produzidos: Filho 1------------
+Filho 3------------
+
+Caracteres produzidos: Caracteres produzidos: Indice: 52, indice global produtor: 24
+
+
+
+--------------------
+Indice: 29, indice global produtor: 24
+tmp_index: 19, indice global: 15
+Indice: 35, indice global produtor: 24
+Filho 2------------
+--------------------
+--------------------
+Caracteres produzidos: --------------------
+Filho 3------------
+
+Filho 7------------
+Caracteres produzidos: 
+Filho 1------------
+Indice: 53, indice global produtor: 35
+Caracteres consumidos: TIndice: 30, indice global produtor: 35
+Caracteres produzidos: --------------------
+
+Filho 2------------
+--------------------
+Caracteres produzidos: Indice: 36, indice global produtor: 53
+Filho 3------------
+
+Caracteres produzidos: --------------------
+Indice: 55, indice global produtor: 30
+
+Filho 1------------
+
+Indice: 32, indice global produtor: 36
+--------------------
+tmp_index: 20, indice global: 19
+Caracteres produzidos: --------------------
+--------------------
+Filho 2------------
+Filho 3------------
+
+Filho 7------------
+Caracteres produzidos: Caracteres produzidos: Caracteres consumidos: U
+Indice: 39, indice global produtor: 32
+
+--------------------
+Indice: 58, indice global produtor: 32
+Indice: 36, indice global produtor: 32
+--------------------
+Filho 1------------
+--------------------
+Caracteres consumidos: 
+Caracteres produzidos: Filho 2------------
+Filho 3------------
+
+Caracteres produzidos: tmp_index: 19, indice global: 20
+V--------------------
+Filho 5------------
+Caracteres consumidos: #V
+Filho 6------------
+Indice: 26, indice global produtor: 36
+--------------------
+Caracteres consumidos: 
+Caracteres consumidos: YFilho 4------------
+tmp_index: 23, indice global: 19
+Caracteres produzidos: --------------------
+Filho 8------------
+
+Caracteres consumidos: XIndice: 28, indice global produtor: 26
+W
+--------------------
+Filho 4------------
+Caracteres produzidos: tmp_index: 20, indice global: 23
+
+Indice: 31, indice global produtor: 28
+--------------------
+--------------------
+Filho 4------------
+Caracteres produzidos: ZFilho 5------------
+
+Caracteres consumidos: ##Indice: 34, indice global produtor: 31
+--------------------
+Filho 4------------
+#Caracteres produzidos: 
+Indice: 38, indice global produtor: 34
+ --------------------
+
+Filho 4------------
+Caracteres produzidos: 
+Indice: 43, indice global produtor: 38
+#tmp_index: 25, indice global: 20
+--------------------
+--------------------
+Filho 4------------
+Caracteres produzidos: Caracteres produzidos: Filho 8------------
+
+#Caracteres consumidos: #
+Indice: 41, indice global produtor: 43
+Indice: 48, indice global produtor: 43
+--------------------
+--------------------
+Filho 3------------
+Filho 4------------
+Caracteres produzidos: 
+Caracteres produzidos: Indice: 44, indice global produtor: 48
+
+--------------------
+Filho 3------------
+Indice: 51, indice global produtor: 44
+--------------------
+Caracteres produzidos: 
+Filho 4------------
+
+
+tmp_index: 23, indice global: 25
+
+Caracteres produzidos: Indice: 48, indice global produtor: 51
+--------------------
+Indice: 63, indice global produtor: 51
+tmp_index: 26, indice global: 25
+
+--------------------
+Filho 5------------
+--------------------
+Caracteres consumidos: #--------------------
+Indice: 55, indice global produtor: 51
+Filho 3------------
+Filho 2------------
+Filho 8------------
+--------------------
+Caracteres produzidos: Caracteres produzidos: Caracteres consumidos: #Filho 4------------
+
+
+Caracteres produzidos: Indice: 53, indice global produtor: 55
+Indice: 68, indice global produtor: 55
+
+--------------------
+--------------------
+Indice: 56, indice global produtor: 55
+Filho 3------------
+--------------------
+
+Caracteres produzidos: Filho 2------------
+Filho 4------------
+
+Caracteres produzidos: Caracteres produzidos: Indice: 54, indice global produtor: 0
+
+
+--------------------
+
+
+Indice: 58, indice global produtor: 0
+Indice: 2, indice global produtor: 0
+Filho 3------------
+tmp_index: 27, indice global: 26
+tmp_index: 24, indice global: 26
+--------------------
+--------------------
+Caracteres produzidos: --------------------
+--------------------
+Filho 4------------
+Filho 2------------
+
+Caracteres produzidos: Filho 8------------
+Caracteres produzidos: Filho 5------------
+Indice: 56, indice global produtor: 2
+
+
+Caracteres consumidos: 
+Caracteres consumidos: 
+--------------------
+Indice: 5, indice global produtor: 2
+Indice: 61, indice global produtor: 2
+tmp_index: 24, indice global: 24
+tmp_index: 24, indice global: 24
+Filho 3------------
+--------------------
+--------------------
+--------------------
+--------------------
+Caracteres produzidos: Filho 2------------
+Filho 4------------
+Filho 8------------
+Filho 5------------
+
+Caracteres produzidos: Caracteres produzidos: Caracteres consumidos: #Caracteres consumidos: #Indice: 60, indice global produtor: 61
+
+
+--------------------
+Indice: 10, indice global produtor: 61
+Indice: 66, indice global produtor: 61
+Filho 3------------
+--------------------
+--------------------
+Caracteres produzidos: Filho 2------------
+
+Caracteres produzidos: 
+Filho 4------------
+
+Indice: 61, indice global produtor: 0
+Caracteres produzidos: --------------------
+Indice: 11, indice global produtor: 0
+
+Filho 3------------
+--------------------
+Indice: 2, indice global produtor: 61
+Caracteres produzidos: ##Filho 2------------
+--------------------
+
+Caracteres produzidos: Filho 4------------
+Indice: 63, indice global produtor: 2
+
+Caracteres produzidos: --------------------
+Indice: 13, indice global produtor: 2
+
+Filho 3------------
+--------------------
+Indice: 5, indice global produtor: 63
+Caracteres produzidos: Filho 2------------
+--------------------
+
+Caracteres produzidos: 
+Filho 4------------
+Indice: 66, indice global produtor: 5
+
+--------------------
+Caracteres produzidos: tmp_index: 26, indice global: 24
+tmp_index: 26, indice global: 24
+
+
+--------------------
+--------------------
+Filho 3------------
+Indice: 9, indice global produtor: 0
+Filho 5------------
+Filho 8------------
+Caracteres produzidos: --------------------
+Caracteres consumidos: 
+Caracteres consumidos: 
+
+Filho 4------------
+tmp_index: 26, indice global: 26
+tmp_index: 26, indice global: 26
+P
+Indice: 4, indice global produtor: 9
+Caracteres produzidos: --------------------
+--------------------
+Indice: 16, indice global produtor: 9
+--------------------
+
+Filho 5------------
+Filho 8------------
+--------------------
+Filho 3------------
+Caracteres consumidos: 
+Indice: 14, indice global produtor: 4
+Caracteres consumidos: 
+Filho 2------------
+Caracteres produzidos: tmp_index: 26, indice global: 26
+--------------------
+tmp_index: 26, indice global: 26
+Caracteres produzidos: 
+--------------------
+Filho 4------------
+--------------------
+Indice: 5, indice global produtor: 14
+Caracteres produzidos: 
+Filho 5------------
+Filho 8------------
+--------------------
+Indice: 16, indice global produtor: 14
+Caracteres consumidos: 
+Caracteres consumidos: 
+Filho 3------------
+--------------------
+tmp_index: 26, indice global: 26
+tmp_index: 26, indice global: 26
+Caracteres produzidos: --------------------
+Filho 4------------
+--------------------
+
+Filho 5------------
+Caracteres produzidos: Q
+Filho 8------------
+Indice: 8, indice global produtor: 16
+Caracteres consumidos: 
+Indice: 17, indice global produtor: 16
+Caracteres consumidos: 
+--------------------
+tmp_index: 26, indice global: 26
+tmp_index: 26, indice global: 26
+--------------------
+Filho 3------------
+--------------------
+--------------------
+Filho 2------------
+Caracteres produzidos: Filho 5------------
+Filho 8------------
+Caracteres produzidos: 
+Caracteres consumidos: 
+Caracteres consumidos: 
+Indice: 12, indice global produtor: 17
+tmp_index: 26, indice global: 26
+tmp_index: 26, indice global: 26
+--------------------
+--------------------
+--------------------
+Filho 3------------
+Filho 5------------
+Filho 8------------
+Caracteres produzidos: Caracteres consumidos: 
+Caracteres consumidos: 
+
+R
+tmp_index: 26, indice global: 26
+tmp_index: 26, indice global: 26
+Indice: 17, indice global produtor: 12
+--------------------
+Indice: 19, indice global produtor: 12
+--------------------
+--------------------
+Filho 8------------
+Filho 5------------
+--------------------
+Filho 3------------
+Caracteres consumidos: 
+Caracteres consumidos: 
+Caracteres produzidos: Filho 4------------
+tmp_index: 26, indice global: 26
+tmp_index: 26, indice global: 26
+
+Caracteres produzidos: --------------------
+--------------------
+Indice: 18, indice global produtor: 19
+Filho 5------------
+--------------------
+Filho 8------------
+
+Caracteres consumidos: 
+Filho 3------------
+Indice: 20, indice global produtor: 18
+Caracteres consumidos: 
+tmp_index: 26, indice global: 26
+Caracteres produzidos: --------------------
+tmp_index: 26, indice global: 26
+--------------------
+
+Filho 4------------
+--------------------
+Filho 5------------
+Indice: 20, indice global produtor: 20
+Caracteres produzidos: Caracteres consumidos: 
+Filho 8------------
+--------------------
+tmp_index: 26, indice global: 26
+Filho 3------------
+Caracteres consumidos: 
+STU
+--------------------
+Caracteres produzidos: tmp_index: 26, indice global: 26
+Indice: 21, indice global produtor: 20
+Filho 5------------
+--------------------
+--------------------
+Caracteres consumidos: 
+Filho 2------------
+tmp_index: 26, indice global: 26
+Filho 8------------
+--------------------
+Caracteres produzidos: Caracteres consumidos: 
+Filho 5------------
+Caracteres consumidos: 
+tmp_index: 26, indice global: 26
+--------------------
+tmp_index: 26, indice global: 26
+V
+Filho 5------------
+--------------------
+Indice: 23, indice global produtor: 21
+Caracteres consumidos: 
+Filho 8------------
+--------------------
+tmp_index: 26, indice global: 26
+W
+Filho 4------------
+--------------------
+Caracteres consumidos: 
+
+            Execução 2 (Tempo de execução = 0.02):
+XIndice: 55, indice global produtor: 48
+Indice: 52, indice global produtor: 48
+--------------------
+--------------------
+Filho 1------------
+Filho 2------------
+Caracteres produzidos: Caracteres produzidos: 
+
+Indice: 59, indice global produtor: 52
+Indice: 56, indice global produtor: 52
+--------------------
+--------------------
+Filho 1------------
+Filho 2------------
+Caracteres produzidos: Caracteres produzidos: 
+
+Indice: 63, indice global produtor: 56
+Indice: 60, indice global produtor: 56
+--------------------
+--------------------
+Filho 1------------
+Filho 2------------
+Caracteres produzidos: Caracteres produzidos: 
+
+Indice: 67, indice global produtor: 60
+Indice: 64, indice global produtor: 60
+--------------------
+--------------------
+
+Filho 2------------
+Filho 1------------
+Caracteres produzidos: Caracteres produzidos: 
+
+Indice: 68, indice global produtor: 0
+Indice: 4, indice global produtor: 0
+--------------------
+
+--------------------
+
+tmp_index: 31, indice global: 29
+Filho 1------------
+Filho 2------------
+--------------------
+Caracteres produzidos: Caracteres produzidos: 
+Indice: 9, indice global produtor: 0
+
+Filho 7------------
+Indice: 5, indice global produtor: 0
+--------------------
+--------------------
+Caracteres consumidos: 
+Filho 2------------
+Filho 1------------
+Caracteres produzidos: tmp_index: 31, indice global: 31
+Caracteres produzidos: 
+--------------------
+
+Indice: 8, indice global produtor: 5
+Filho 7------------
+--------------------
+Caracteres consumidos: 
+Filho 2------------
+Caracteres produzidos: tmp_index: 31, indice global: 31
+
+--------------------
+Indice: 11, indice global produtor: 8
+--------------------
+Filho 7------------
+Filho 2------------
+Caracteres consumidos: 
+Caracteres produzidos: 
+tmp_index: 31, indice global: 31
+Indice: 14, indice global produtor: 11
+--------------------
+--------------------
+Filho 7------------
+Caracteres consumidos: 
+Filho 2------------
+tmp_index: 31, indice global: 31
+Caracteres produzidos: --------------------
+
+
+Filho 7------------
+Indice: 18, indice global produtor: 14
+tmp_index: 31, indice global: 31
+Caracteres consumidos: 
+--------------------
+--------------------
+tmp_index: 31, indice global: 31
+Filho 2------------
+Filho 5------------
+--------------------
+Caracteres produzidos: Caracteres consumidos: 
+Filho 7------------
+tmp_index: 31, indice global: 31
+Caracteres consumidos: 
+--------------------
+tmp_index: 31, indice global: 31
+--------------------
+Filho 5------------
+Filho 7------------
+Caracteres consumidos: 
+Caracteres consumidos: 
+tmp_index: 31, indice global: 31
+tmp_index: 31, indice global: 31
+--------------------
+--------------------
+Filho 5------------
+Filho 7------------
+Caracteres consumidos: 
+Caracteres consumidos: 
+tmp_index: 31, indice global: 31
+tmp_index: 31, indice global: 31
+--------------------
+--------------------
+Indice: 12, indice global produtor: 18
+Filho 7------------
+Filho 5------------
+W
+--------------------
+Caracteres consumidos: 
+Caracteres consumidos: 
+Indice: 23, indice global produtor: 18
+Filho 1------------
+tmp_index: 31, indice global: 31
+tmp_index: 31, indice global: 31
+--------------------
+Caracteres produzidos: Filho 2------------
+Caracteres produzidos: YZ 
+Caracteres consumidos: TIndice: 27, indice global produtor: 23
+--------------------
+Filho 3------------
+Caracteres produzidos: 
+Indice: 28, indice global produtor: 27
+--------------------
+Filho 3------------
+Caracteres produzidos: 
+Indice: 29, indice global produtor: 28
+--------------------
+Filho 3------------
+Caracteres produzidos: 
+Indice: 30, indice global produtor: 29
+--------------------
+UFilho 3------------
+Caracteres produzidos: 
+Indice: 33, indice global produtor: 30
+--------------------
+Filho 3------------
+Caracteres produzidos: 
+Indice: 37, indice global produtor: 33
+--------------------
+Filho 3------------
+Caracteres produzidos: 
+Indice: 41, indice global produtor: 37
+--------------------
+Filho 3------------
+Caracteres produzidos: 
+Indice: 45, indice global produtor: 41
+--------------------
+Filho 3------------
+Caracteres produzidos: 
+
+tmp_index: 21, indice global: 31
+--------------------
+Filho 8------------
+Caracteres consumidos: VW--------------------
+Filho 7------------
+Caracteres consumidos: e--------------------
+Filho 5------------
+
+Caracteres consumidos: #Indice: 14, indice global produtor: 45
+--------------------
+Filho 1------------
+Caracteres produzidos: 
+Indice: 19, indice global produtor: 14
+--------------------
+Filho 1------------
+Caracteres produzidos: 
+
+tmp_index: 24, indice global: 31
+--------------------
+Filho 6------------
+Caracteres consumidos: 
+tmp_index: 32, indice global: 31
+tmp_index: 24, indice global: 24
+--------------------
+--------------------
+Filho 7------------
+Filho 6------------
+Caracteres consumidos: 
+Caracteres consumidos: 
+tmp_index: 32, indice global: 24
+tmp_index: 24, indice global: 24
+--------------------
+Filho 6------------
+Caracteres consumidos: 
+--------------------
+tmp_index: 24, indice global: 24
+Filho 7------------
+--------------------
+Caracteres consumidos: 
+Filho 6------------
+tmp_index: 32, indice global: 24
+Caracteres consumidos: 
+--------------------
+tmp_index: 24, indice global: 24
+Filho 7------------
+--------------------
+Caracteres consumidos: 
+Filho 6------------
+tmp_index: 32, indice global: 24
+Caracteres consumidos: 
+--------------------
+tmp_index: 24, indice global: 24
+Filho 7------------
+--------------------
+Caracteres consumidos: 
+tmp_index: 32, indice global: 32
+Filho 6------------
+Caracteres consumidos: 
+tmp_index: 24, indice global: 24
+--------------------
+--------------------
+Filho 6------------
+Filho 7------------
+Caracteres consumidos: 
+Caracteres consumidos: 
+tmp_index: 24, indice global: 32
+tmp_index: 32, indice global: 32
+--------------------
+--------------------
+Filho 6------------
+Caracteres consumidos: 
+Filho 7------------
+tmp_index: 24, indice global: 32
+Caracteres consumidos: 
+--------------------
+tmp_index: 32, indice global: 32
+Filho 6------------
+--------------------
+Caracteres consumidos: 
+Filho 7------------
+tmp_index: 24, indice global: 32
+Caracteres consumidos: 
+--------------------
+tmp_index: 32, indice global: 32
+Filho 6------------
+--------------------
+Caracteres consumidos: 
+Filho 7------------
+Caracteres consumidos: 
+tmp_index: 24, indice global: 32
+tmp_index: 32, indice global: 32
+--------------------
+--------------------
+Filho 6------------
+Filho 7------------
+Caracteres consumidos: 
+Caracteres consumidos: 
+tmp_index: 32, indice global: 32
+tmp_index: 24, indice global: 32
+--------------------
+--------------------
+Filho 7------------
+Filho 6------------
+Caracteres consumidos: 
+tmp_index: 32, indice global: 24
+Caracteres consumidos: 
+--------------------
+tmp_index: 24, indice global: 24
+Filho 7------------
+--------------------
+Caracteres consumidos: 
+tmp_index: 32, indice global: 24
+Filho 6------------
+--------------------
+Caracteres consumidos: 
+Filho 7------------
+tmp_index: 24, indice global: 32
+Caracteres consumidos: 
+--------------------
+tmp_index: 32, indice global: 32
+--------------------
+Filho 6------------
+Filho 7------------
+Caracteres consumidos: 
+Caracteres consumidos: 
+tmp_index: 24, indice global: 32
+tmp_index: 32, indice global: 32
+--------------------
+--------------------
+Filho 7------------
+Filho 6------------
+Caracteres consumidos: 
+Caracteres consumidos: 
+tmp_index: 32, indice global: 32
+tmp_index: 32, indice global: 32
+--------------------
+--------------------
+Filho 7------------
+Filho 6------------
+Caracteres consumidos: 
+Caracteres consumidos: 
+tmp_index: 32, indice global: 32
+--------------------
+tmp_index: 32, indice global: 32
+Filho 7------------
+--------------------
+Caracteres consumidos: 
+Filho 6------------
+tmp_index: 32, indice global: 32
+Caracteres consumidos: 
+--------------------
+tmp_index: 32, indice global: 32
+Filho 7------------
+--------------------
+Caracteres consumidos: 
+Filho 6------------
+tmp_index: 32, indice global: 32
+Caracteres consumidos: 
+--------------------
+tmp_index: 32, indice global: 32
+Filho 7------------
+--------------------
+Caracteres consumidos: 
+Filho 6------------
+tmp_index: 32, indice global: 32
+Caracteres consumidos: 
+--------------------
+tmp_index: 32, indice global: 32
+Filho 7------------
+--------------------
+Caracteres consumidos: 
+tmp_index: 32, indice global: 32
+Filho 6------------
+--------------------
+Caracteres consumidos: 
+Filho 7------------
+tmp_index: 32, indice global: 32
+Caracteres consumidos: 
+--------------------
+tmp_index: 32, indice global: 32
+--------------------
+Filho 6------------
+Filho 7------------
+Caracteres consumidos: 
+Caracteres consumidos: 
+tmp_index: 32, indice global: 32
+tmp_index: 32, indice global: 32
+--------------------
+--------------------
+Filho 7------------
+Filho 6------------
+Caracteres consumidos: 
+Caracteres consumidos: 
+tmp_index: 32, indice global: 32
+tmp_index: 32, indice global: 32
+--------------------
+--------------------
+Filho 6------------
+Filho 7------------
+Caracteres consumidos: 
+Caracteres consumidos: 
+tmp_index: 32, indice global: 32
+--------------------
+tmp_index: 32, indice global: 32
+Filho 6------------
+--------------------
+Caracteres consumidos: 
+Filho 7------------
+tmp_index: 32, indice global: 32
+Caracteres consumidos: 
+--------------------
+tmp_index: 32, indice global: 32
+Filho 6------------
+--------------------
+Caracteres consumidos: 
+Filho 7------------
+Caracteres consumidos: 
+tmp_index: 32, indice global: 32
+tmp_index: 32, indice global: 32
+--------------------
+--------------------
+Filho 6------------
+Filho 7------------
+Caracteres consumidos: 
+tmp_index: 32, indice global: 32
+Caracteres consumidos: 
+--------------------
+tmp_index: 32, indice global: 32
+Filho 6------------
+--------------------
+Caracteres consumidos: 
+Filho 7------------
+tmp_index: 32, indice global: 32
+Caracteres consumidos: 
+--------------------
+tmp_index: 32, indice global: 32
+--------------------
+Filho 6------------
+Caracteres consumidos: 
+Filho 7------------
+tmp_index: 32, indice global: 32
+Caracteres consumidos: 
+--------------------
+tmp_index: 32, indice global: 32
+Filho 6------------
+--------------------
+Caracteres consumidos: 
+Filho 7------------
+tmp_index: 32, indice global: 32
+Caracteres consumidos: 
+--------------------
+tmp_index: 32, indice global: 32
+Filho 6------------
+--------------------
+Caracteres consumidos: 
+Filho 7------------
+tmp_index: 32, indice global: 32
+Caracteres consumidos: 
+--------------------
+tmp_index: 32, indice global: 32
+Filho 6------------
+--------------------
+Caracteres consumidos: 
+Filho 7------------
+tmp_index: 32, indice global: 32
+Caracteres consumidos: 
+--------------------
+tmp_index: 32, indice global: 32
+Filho 6------------
+--------------------
+Caracteres consumidos: 
+Filho 7------------
+tmp_index: 32, indice global: 32
+Caracteres consumidos: 
+--------------------
+tmp_index: 32, indice global: 32
+Filho 6------------
+--------------------
+Caracteres consumidos: 
+Filho 7------------
+tmp_index: 32, indice global: 32
+Caracteres consumidos: 
+--------------------
+tmp_index: 32, indice global: 32
+Filho 6------------
+--------------------
+Caracteres consumidos: 
+Filho 7------------
+tmp_index: 32, indice global: 32
+Caracteres consumidos: 
+--------------------
+tmp_index: 32, indice global: 32
+Filho 6------------
+--------------------
+Caracteres consumidos: 
+Filho 7------------
+tmp_index: 32, indice global: 32
+Caracteres consumidos: 
+--------------------
+tmp_index: 32, indice global: 32
+Filho 6------------
+--------------------
+Caracteres consumidos: 
+Filho 7------------
+tmp_index: 32, indice global: 32
+Caracteres consumidos: 
+--------------------
+tmp_index: 32, indice global: 32
+Filho 6------------
+--------------------
+Caracteres consumidos: 
+Filho 7------------
+tmp_index: 32, indice global: 32
+Caracteres consumidos: 
+--------------------
+tmp_index: 32, indice global: 32
+Filho 6------------
+--------------------
+Caracteres consumidos: 
+Filho 7------------
+tmp_index: 32, indice global: 32
+Caracteres consumidos: 
+--------------------
+tmp_index: 32, indice global: 32
+--------------------
+Filho 6------------
+Filho 7------------
+Caracteres consumidos: 
+Caracteres consumidos: 
+tmp_index: 32, indice global: 32
+tmp_index: 32, indice global: 32
+--------------------
+--------------------
+Filho 6------------
+Filho 7------------
+Caracteres consumidos: 
+Caracteres consumidos: 
+tmp_index: 32, indice global: 32
+tmp_index: 32, indice global: 32
+--------------------
+--------------------
+Filho 6------------
+Filho 7------------
+Caracteres consumidos: 
+Caracteres consumidos: 
+tmp_index: 32, indice global: 32
+tmp_index: 32, indice global: 32
+--------------------
+--------------------
+Filho 7------------
+Filho 6------------
+Caracteres consumidos: 
+Caracteres consumidos: 
+tmp_index: 32, indice global: 32
+tmp_index: 32, indice global: 32
+--------------------
+--------------------
+Filho 7------------
+Filho 6------------
+Caracteres consumidos: 
+Caracteres consumidos: 
+tmp_index: 32, indice global: 32
+tmp_index: 32, indice global: 32
+--------------------
+--------------------
+Filho 7------------
+Filho 6------------
+Caracteres consumidos: 
+Caracteres consumidos: 
+tmp_index: 32, indice global: 32
+tmp_index: 32, indice global: 32
+--------------------
+--------------------
+Filho 7------------
+Filho 6------------
+Caracteres consumidos: 
+Caracteres consumidos: 
+tmp_index: 32, indice global: 32
+tmp_index: 32, indice global: 32
+--------------------
+--------------------
+Filho 7------------
+Caracteres consumidos: 
+Filho 6------------
+tmp_index: 32, indice global: 32
+Caracteres consumidos: 
+--------------------
+tmp_index: 32, indice global: 32
+Filho 7------------
+--------------------
+Caracteres consumidos: 
+Filho 6------------
+tmp_index: 32, indice global: 32
+Caracteres consumidos: 
+--------------------
+tmp_index: 32, indice global: 32
+Filho 7------------
+--------------------
+Caracteres consumidos: 
+Filho 6------------
+tmp_index: 32, indice global: 32
+Caracteres consumidos: 
+--------------------
+tmp_index: 32, indice global: 32
+Filho 7------------
+--------------------
+Caracteres consumidos: 
+Filho 6------------
+tmp_index: 32, indice global: 32
+Caracteres consumidos: 
+--------------------
+tmp_index: 32, indice global: 32
+Filho 7------------
+--------------------
+Caracteres consumidos: 
+Filho 6------------
+tmp_index: 32, indice global: 32
+Caracteres consumidos: 
+--------------------
+tmp_index: 32, indice global: 32
+Filho 7------------
+Caracteres consumidos: 
+--------------------
+tmp_index: 32, indice global: 32
+--------------------
+Filho 6------------
+Filho 7------------
+Caracteres consumidos: 
+Caracteres consumidos: 
+tmp_index: 32, indice global: 32
+tmp_index: 32, indice global: 32
+--------------------
+--------------------
+Filho 6------------
+Filho 7------------
+Caracteres consumidos: 
+Caracteres consumidos: 
+tmp_index: 32, indice global: 32
+--------------------
+tmp_index: 32, indice global: 32
+Filho 6------------
+--------------------
+Caracteres consumidos: 
+Filho 7------------
+tmp_index: 32, indice global: 32
+Caracteres consumidos: 
+--------------------
+tmp_index: 32, indice global: 32
+Filho 6------------
+--------------------
+Caracteres consumidos: 
+Filho 7------------
+tmp_index: 32, indice global: 32
+Caracteres consumidos: 
+--------------------
+tmp_index: 32, indice global: 32
+Filho 6------------
+--------------------
+Caracteres consumidos: 
+Filho 7------------
+tmp_index: 32, indice global: 32
+Caracteres consumidos: 
+--------------------
+tmp_index: 32, indice global: 32
+Filho 6------------
+--------------------
+Caracteres consumidos: 
+Filho 7------------
+tmp_index: 32, indice global: 32
+Caracteres consumidos: 
+--------------------
+tmp_index: 32, indice global: 32
+--------------------
+Filho 6------------
+Filho 7------------
+Caracteres consumidos: 
+Caracteres consumidos: 
+tmp_index: 32, indice global: 32
+tmp_index: 32, indice global: 32
+--------------------
+--------------------
+Filho 6------------
+Filho 7------------
+Caracteres consumidos: 
+Caracteres consumidos: 
+tmp_index: 32, indice global: 32
+tmp_index: 32, indice global: 32
+--------------------
+--------------------
+Filho 6------------
+Filho 7------------
+Caracteres consumidos: 
+Caracteres consumidos: 
+tmp_index: 32, indice global: 32
+tmp_index: 32, indice global: 32
+--------------------
+--------------------
+Filho 7------------
+Filho 6------------
+Caracteres consumidos: 
+Caracteres consumidos: 
+tmp_index: 32, indice global: 32
+tmp_index: 32, indice global: 32
+--------------------
+--------------------
+Filho 7------------
+Caracteres consumidos: 
+Filho 6------------
+tmp_index: 32, indice global: 32
+Caracteres consumidos: 
+--------------------
+tmp_index: 32, indice global: 32
+Filho 7------------
+--------------------
+Caracteres consumidos: 
+Filho 6------------
+tmp_index: 32, indice global: 32
+Caracteres consumidos: 
+--------------------
+tmp_index: 32, indice global: 32
+Filho 7------------
+--------------------
+Caracteres consumidos: 
+tmp_index: 32, indice global: 32
+Filho 6------------
+--------------------
+Caracteres consumidos: 
+Filho 7------------
+tmp_index: 32, indice global: 32
+Caracteres consumidos: 
+--------------------
+tmp_index: 32, indice global: 32
+--------------------
+Filho 6------------
+Filho 7------------
+Caracteres consumidos: 
+Caracteres consumidos: 
+tmp_index: 32, indice global: 32
+tmp_index: 32, indice global: 32
+--------------------
+--------------------
+Filho 6------------
+Filho 7------------
+Caracteres consumidos: 
+Caracteres consumidos: 
+tmp_index: 32, indice global: 32
+tmp_index: 32, indice global: 32
+--------------------
+--------------------
+Filho 7------------
+Filho 6------------
+Caracteres consumidos: 
+Caracteres consumidos: 
+tmp_index: 32, indice global: 32
+tmp_index: 32, indice global: 32
+--------------------
+--------------------
+Filho 7------------
+Filho 6------------
+Caracteres consumidos: 
+Caracteres consumidos: 
+tmp_index: 32, indice global: 32
+tmp_index: 32, indice global: 32
+--------------------
+--------------------
+Filho 7------------
+Filho 6------------
+Caracteres consumidos: 
+Caracteres consumidos: 
+tmp_index: 32, indice global: 32
+tmp_index: 32, indice global: 32
+--------------------
+--------------------
+Filho 6------------
+Caracteres consumidos: 
+Filho 7------------
+tmp_index: 32, indice global: 32
+Caracteres consumidos: 
+--------------------
+tmp_index: 32, indice global: 32
+Filho 6------------
+--------------------
+Caracteres consumidos: 
+tmp_index: 32, indice global: 32
+Filho 7------------
+--------------------
+Caracteres consumidos: 
+Filho 6------------
+Caracteres consumidos: 
+tmp_index: 32, indice global: 32
+tmp_index: 32, indice global: 32
+--------------------
+--------------------
+Filho 7------------
+Caracteres consumidos: 
+Filho 6------------
+tmp_index: 32, indice global: 32
+Caracteres consumidos: 
+--------------------
+tmp_index: 32, indice global: 32
+Filho 7------------
+--------------------
+Caracteres consumidos: 
+Filho 6------------
+tmp_index: 32, indice global: 32
+Caracteres consumidos: 
+--------------------
+tmp_index: 32, indice global: 32
+--------------------
+Caracteres consumidos: 
+Filho 6------------
+tmp_index: 32, indice global: 32
+Caracteres consumidos: 
+--------------------
+tmp_index: 32, indice global: 32
+Filho 7------------
+--------------------
+Caracteres consumidos: 
+Filho 6------------
+tmp_index: 32, indice global: 32
+Caracteres consumidos: 
+--------------------
+tmp_index: 32, indice global: 32
+Filho 7------------
+--------------------
+Caracteres consumidos: 
+Filho 6------------
+tmp_index: 32, indice global: 32
+Caracteres consumidos: 
+--------------------
+tmp_index: 32, indice global: 32
+Filho 7------------
+Caracteres consumidos: 
+--------------------
+tmp_index: 32, indice global: 32
+Filho 6------------
+--------------------
+Caracteres consumidos: 
+Filho 7------------
+tmp_index: 32, indice global: 32
+Caracteres consumidos: 
+--------------------
+tmp_index: 32, indice global: 32
+Filho 6------------
+------
+
+            Execução 3 (Tempo de execução = 0.002):
+Filho 1 comecou como produtor ...
+Filho 4 comecou como produtor ...
+Filho 2 comecou como produtor ...
+Filho 3 comecou como produtor ...
+Filho 8 comecou como consumidor...
+Filho 7 comecou como consumidor...
+Filho 1------------
+Caracteres produzidos: Filho 6 comecou como consumidor...
+Filho 5 comecou como consumidor...
+Filho 4------------
+Caracteres produzidos: B
+Indice: 2, indice global produtor: 0
+--------------------
+Filho 4------------
+Caracteres produzidos: Filho 2------------
+Caracteres produzidos: Filho 3------------
+Caracteres produzidos: 
+Indice: 3, indice global produtor: 2
+--------------------
+Filho 3------------
+Caracteres produzidos: 
+Indice: 4, indice global produtor: 3
+--------------------
+Filho 3------------
+Caracteres produzidos: 
+Indice: 5, indice global produtor: 4
+--------------------
+Filho 3------------
+Caracteres produzidos: CE
+Indice: 5, indice global produtor: 5
+--------------------
+Filho 4------------
+Caracteres produzidos: D
+Indice: 7, indice global produtor: 5
+--------------------
+Filho 2------------
+Caracteres produzidos: Filho 7------------
+Caracteres consumidos: AG
+Indice: 7, indice global produtor: 7
+--------------------
+Filho 4------------
+Caracteres produzidos: H
+Indice: 9, indice global produtor: 7
+--------------------
+Filho 2------------
+Caracteres produzidos: F
+Indice: 7, indice global produtor: 9
+--------------------
+Filho 3------------
+Caracteres produzidos: Filho 8------------
+Caracteres consumidos: #BFilho 6------------
+Caracteres consumidos: #I
+Indice: 11, indice global produtor: 7
+--------------------
+Filho 4------------
+Caracteres produzidos: K
+Indice: 12, indice global produtor: 11
+--------------------
+Filho 3------------
+#C
+tmp_index: 1, indice global: 0
+--------------------
+Filho 6------------
+Caracteres consumidos: #L
+Indice: 12, indice global produtor: 12
+--------------------
+Filho 4------------
+Caracteres produzidos: JM
+D#Indice: 13, indice global produtor: 12
+--------------------
+Filho 2------------
+Caracteres produzidos: Caracteres produzidos: 
+Indice: 13, indice global produtor: 13
+--------------------
+
+tmp_index: 4, indice global: 1
+--------------------
+Filho 7------------
+Caracteres consumidos: E
+tmp_index: 3, indice global: 4
+--------------------
+Filho 6------------
+Caracteres consumidos: #Filho 5------------
+Caracteres consumidos: #Filho 3------------
+F
+tmp_index: 4, indice global: 3
+--------------------
+Filho 6------------
+Caracteres consumidos: #NP
+Indice: 16, indice global produtor: 13
+--------------------
+Filho 4------------
+Caracteres produzidos: OQ
+Indice: 17, indice global produtor: 16
+--------------------
+Filho 2------------
+Caracteres produzidos: G#R
+Indice: 19, indice global produtor: 17
+--------------------
+Filho 4------------
+Caracteres produzidos: S
+Indice: 20, indice global produtor: 19
+--------------------
+Filho 2------------
+Caracteres produzidos: 
+tmp_index: 4, indice global: 4
+H
+tmp_index: 6, indice global: 4
+--------------------
+Filho 6------------
+Caracteres consumidos: #Caracteres produzidos: 
+Indice: 14, indice global produtor: 20
+--------------------
+I#TV
+Indice: 23, indice global produtor: 20
+--------------------
+Filho 4------------
+Caracteres produzidos: UW
+Indice: 24, indice global produtor: 23
+--------------------
+Filho 2------------
+Caracteres produzidos: 
+tmp_index: 9, indice global: 6
+--------------------
+Filho 7------------
+Caracteres consumidos: J#--------------------
+Filho 5------------
+Caracteres consumidos: #K#XY
+Indice: 25, indice global produtor: 24
+--------------------
+Filho 4------------
+Caracteres produzidos: 
+Indice: 26, indice global produtor: 25
+--------------------
+L#Filho 4------------
+Caracteres produzidos: Z
+Indice: 26, indice global produtor: 26
+--------------------
+Filho 2------------
+
+tmp_index: 12, indice global: 4
+Filho 7------------
+Caracteres consumidos: M
+tmp_index: 11, indice global: 12
+--------------------
+Filho 6------------
+Caracteres consumidos: #N# a
+Indice: 28, indice global produtor: 26
+--------------------
+Filho 4------------
+Caracteres produzidos: O#b
+Indice: 29, indice global produtor: 28
+--------------------
+Filho 4------------
+Caracteres produzidos: Caracteres produzidos: 
+Indice: 28, indice global produtor: 29
+P#Filho 3------------
+Caracteres produzidos: #
+tmp_index: 16, indice global: 11
+--------------------
+Filho 7------------
+Caracteres consumidos: 
+tmp_index: 16, indice global: 16
+--------------------
+Filho 7------------
+Caracteres consumidos: 
+tmp_index: 16, indice global: 16
+--------------------
+Filho 7------------
+Caracteres consumidos: 
+tmp_index: 16, indice global: 16
+--------------------
+Filho 7------------
+Caracteres consumidos: 
+
+            Execução 4 (Tempo de execução = 0.002 secs):
+
+Filho 1 comecou como produtor ...
+Filho 2 comecou como produtor ...
+Filho 3 comecou como produtor ...
+Filho 5 comecou como consumidor...
+Filho 4 comecou como produtor ...
+Filho 1------------
+Caracteres produzidos: Filho 3------------
+Caracteres produzidos: 
+Indice: 3, indice global produtor: 0
+--------------------
+Filho 3------------
+Caracteres produzidos: ABC
+Indice: 4, indice global produtor: 3
+--------------------
+Filho 1------------
+Caracteres produzidos: DF
+Indice: 7, indice global produtor: 4
+--------------------
+Filho 3------------
+Caracteres produzidos: EG
+Indice: 8, indice global produtor: 7
+--------------------
+Filho 1------------
+Caracteres produzidos: H
+Indice: 9, indice global produtor: 8
+--------------------
+Filho 3------------
+Caracteres produzidos: Filho 5------------
+Caracteres consumidos: AIK
+Indice: 11, indice global produtor: 9
+--------------------
+Filho 1------------
+Caracteres produzidos: JL
+Indice: 13, indice global produtor: 11
+--------------------
+Filho 3------------
+Caracteres produzidos: BM
+Indice: 13, indice global produtor: 13
+--------------------
+Filho 1------------
+Caracteres produzidos: Filho 8 comecou como consumidor...
+CNP
+Indice: 16, indice global produtor: 13
+--------------------
+Filho 3------------
+Caracteres produzidos: 
+Indice: 17, indice global produtor: 16
+--------------------
+Filho 3------------
+Caracteres produzidos: DOQ
+Indice: 17, indice global produtor: 17
+--------------------
+Filho 1------------
+Caracteres produzidos: R
+Filho 6 comecou como consumidor...
+Indice: 18, indice global produtor: 17
+--------------------
+Filho 3------------
+Caracteres produzidos: S
+Indice: 19, indice global produtor: 18
+--------------------
+Filho 1------------
+Caracteres produzidos: 
+tmp_index: 4, indice global: 0
+--------------------
+Filho 5------------
+Caracteres consumidos: EFilho 7 comecou como consumidor...
+TV
+Indice: 22, indice global produtor: 19
+--------------------
+Filho 3------------
+Caracteres produzidos: UWX
+Indice: 24, indice global produtor: 22
+--------------------
+Filho 1------------
+Caracteres produzidos: 
+Indice: 25, indice global produtor: 24
+--------------------
+Filho 1------------
+Caracteres produzidos: Y
+Indice: 26, indice global produtor: 25
+--------------------
+Filho 3------------
+Caracteres produzidos: 
+Z
+Indice: 27, indice global produtor: 26
+--------------------
+Filho 1------------
+Caracteres produzidos:  
+Indice: 28, indice global produtor: 27
+--------------------
+Filho 3------------
+Caracteres produzidos: tmp_index: 5, indice global: 4
+Filho 8------------
+--------------------
+Filho 5------------
+Caracteres consumidos: FCaracteres consumidos: #Gac
+Indice: 31, indice global produtor: 28
+--------------------
+Filho 1------------
+Caracteres produzidos: #bd
+Indice: 32, indice global produtor: 31
+--------------------
+Filho 3------------
+Caracteres produzidos: HFilho 6------------
+e
+Indice: 33, indice global produtor: 32
+--------------------
+Filho 1------------
+Caracteres produzidos: Caracteres consumidos: ##I#Filho 7------------
+fh
+Indice: 35, indice global produtor: 33
+--------------------
+Filho 3------------
+Caracteres produzidos: #J#Caracteres consumidos: #gi
+Indice: 37, indice global produtor: 35
+--------------------
+Filho 1------------
+Caracteres produzidos: j
+Indice: 37, indice global produtor: 37
+--------------------
+Filho 3------------
+Caracteres produzidos: 
+tmp_index: 8, indice global: 5
+--------------------
+Filho 8------------
+l
+
+Indice: 40, indice global produtor: 37
+--------------------
+Filho 3------------
+Caracteres produzidos: tmp_index: 8, indice global: 8
+--------------------
+Filho 6------------
+Caracteres consumidos: #km
+
+Indice: 40, indice global produtor: 40
+--------------------
+Filho 1------------
+Caracteres produzidos: 
+Indice: 41, indice global produtor: 40
+--------------------
+Caracteres consumidos: #Filho 1------------
+Caracteres produzidos: tmp_index: 6, indice global: 8
+--------------------
+Filho 7------------
+
+tmp_index: 10, indice global: 6
+Caracteres consumidos: #
+tmp_index: 9, indice global: 6
+--------------------
+Filho 5------------
+Caracteres consumidos: K##p
+--------------------
+noqr
+Indice: 45, indice global produtor: 41
+--------------------
+Filho 3------------
+Caracteres produzidos: #LIndice: 44, indice global produtor: 41
+--------------------
+Filho 2------------
+Filho 1------------
+Caracteres produzidos: Caracteres produzidos: #
+Indice: 46, indice global produtor: 44
+s
+--------------------
+Filho 1------------
+#Filho 4------------
+MCaracteres produzidos: Filho 6------------
+Indice: 46, indice global produtor: 44
+
+--------------------
+Filho 3------------
+Caracteres produzidos: 
+tmp_index: 9, indice global: 9
+tmp_index: 12, indice global: 9
+--------------------
+Nt
+Filho 8------------
+Caracteres consumidos: #Caracteres produzidos: Indice: 47, indice global produtor: 46
+
+Indice: 49, indice global produtor: 46
+--------------------
+--------------------
+Filho 2------------
+Caracteres produzidos: 
+OCaracteres produzidos: Indice: 48, indice global produtor: 49#--------------------
+
+Indice: 50, indice global produtor: 49
+--------------------
+Filho 2------------
+Caracteres produzidos: Filho 1------------
+vw
+Caracteres produzidos: Indice: 50, indice global produtor: 50Caracteres consumidos: #--------------------
+u
+Filho 3------------
+Caracteres produzidos: Indice: 49, indice global produtor: 50
+--------------------
+tmp_index: 15, indice global: 12
+--------------------
+Filho 5------------
+Filho 4------------
+Caracteres consumidos: PCaracteres produzidos: --------------------#y
+Indice: 53, indice global produtor: 49
+--------------------
+Filho 3------------
+Caracteres produzidos: 
+tmp_index: 11, indice global: 15
+--------------------
+Filho 6------------
+Caracteres consumidos: #
+Q
+
+
+            Execução 5 (Tempo de execução = 0.002):
+
+Filho 1 comecou como produtor ...
+Filho 2 comecou como produtor ...
+Filho 3 comecou como produtor ...
+Filho 4 comecou como produtor ...
+Filho 6 comecou como consumidor...
+Filho 5 comecou como consumidor...
+Filho 7 comecou como consumidor...
+Filho 1------------
+Caracteres produzidos: A
+Filho 3------------
+Indice: 1, indice global produtor: 0
+Caracteres produzidos: --------------------
+Filho 1------------
+Caracteres produzidos: 
+Indice: 2, indice global produtor: 1
+--------------------
+Filho 1------------
+Caracteres produzidos: Filho 8 comecou como consumidor...
+Filho 2------------
+Caracteres produzidos: BD
+Indice: 4, indice global produtor: 2
+--------------------
+Filho 4------------
+Filho 3------------
+Caracteres produzidos: Caracteres produzidos: C
+Indice: 4, indice global produtor: 4
+
+Indice: 5, indice global produtor: 4
+--------------------
+--------------------
+Filho 1------------
+Caracteres produzidos: Filho 3------------
+
+Indice: 6, indice global produtor: 5
+Caracteres produzidos: --------------------
+Filho 1------------
+Caracteres produzidos: EF
+Indice: 6, indice global produtor: 6
+--------------------
+Filho 2------------
+Caracteres produzidos: G
+Filho 7------------
+Filho 5------------
+Indice: 7, indice global produtor: 6
+--------------------
+Caracteres consumidos: AFilho 4------------
+Caracteres produzidos: Caracteres consumidos: #H
+Indice: 8, indice global produtor: 7
+--------------------
+Filho 3------------
+J
+Indice: 10, indice global produtor: 8
+--------------------
+Caracteres produzidos: Filho 2------------
+BCaracteres produzidos: Filho 6------------
+K
+I
+Caracteres consumidos: #BIndice: 9, indice global produtor: 10
+--------------------
+Filho 1------------
+CCCaracteres produzidos: 
+L
+Indice: 12, indice global produtor: 9
+Indice: 9, indice global produtor: 9
+--------------------
+--------------------
+Filho 2------------
+Caracteres produzidos: Filho 3------------
+D#M
+Indice: 13, indice global produtor: 9
+--------------------
+Filho 1------------
+Caracteres produzidos: E
+Indice: 15, indice global produtor: 13
+--------------------
+Filho 1------------
+Caracteres produzidos: #P
+Indice: 17, indice global produtor: 15
+--------------------
+Filho 1------------
+Caracteres produzidos: Indice: 12, indice global produtor: 10
+
+tmp_index: 5, indice global: 0
+--------------------
+
+tmp_index: 5, indice global: 0
+--------------------
+Filho 7------------
+Caracteres consumidos: FCaracteres produzidos: NOQ
+Indice: 17, indice global produtor: 17
+
+--------------------
+Indice: 14, indice global produtor: 17
+Filho 2------------
+--------------------
+Caracteres produzidos: Filho 3------------
+Caracteres produzidos: 
+Indice: 19, indice global produtor: 14
+G--------------------
+Filho 3------------
+Caracteres produzidos: #RT
+Indice: 20, indice global produtor: 19
+--------------------
+Filho 1------------
+Caracteres produzidos: U
+Indice: 21, indice global produtor: 20
+--------------------
+Filho 3------------
+Caracteres produzidos: SV
+
+tmp_index: 2, indice global: 5
+Indice: 22, indice global produtor: 21
+--------------------
+--------------------
+Filho 6------------
+Filho 2------------
+Caracteres consumidos: #Caracteres produzidos: W
+HIndice: 23, indice global produtor: 22
+Filho 8------------
+--------------------
+IFilho 1------------
+X
+Caracteres produzidos: Indice: 25, indice global produtor: 23
+--------------------
+Filho 3------------
+Caracteres produzidos: --------------------
+Filho 5------------
+Filho 4------------
+Caracteres produzidos: 
+Indice: 13, indice global produtor: 12
+--------------------
+Filho 4------------
+Caracteres produzidos: 
+Caracteres consumidos: #Indice: 15, indice global produtor: 13
+--------------------
+Filho 4------------
+Caracteres produzidos: 
+Indice: 18, indice global produtor: 15
+--------------------
+Filho 4------------
+Caracteres produzidos: 
+Indice: 22, indice global produtor: 18
+--------------------
+Filho 4------------
+#Caracteres produzidos: 
+Indice: 26, indice global produtor: 22
+Filho 4------------
+Caracteres produzidos: Y
+#Indice: 26, indice global produtor: 26
+--------------------
+Filho 2------------
+Caracteres produzidos: 
+Indice: 27, indice global produtor: 26
+--------------------
+Filho 2------------
+Caracteres produzidos: 
+Indice: 29, indice global produtor: 27
+--------------------
+Filho 2------------
+Caracteres produzidos: d
+
+Indice: 31, indice global produtor: 29
+Indice: 31, indice global produtor: 29
+--------------------
+Filho 2------------
+Caracteres produzidos: 
+tmp_index: 3, indice global: 2
+--------------------
+--------------------
+Filho 4------------
+Caracteres produzidos: Filho 8------------
+Caracteres consumidos: ##
+tmp_index: 9, indice global: 3
+Caracteres consumidos: # bc
+fh
+Indice: 30, indice global produtor: 31
+--------------------
+--------------------
+#Filho 7------------
+Caracteres consumidos: J
